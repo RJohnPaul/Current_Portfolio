@@ -37,8 +37,8 @@ const FormComponent = () => {
       .then(() => {
         toast.success(
           <ToastMessage
-            title="Enviado"
-            message="E-mail destinado com sucesso."
+            title="Success"
+            message="E-mail has sucessfully reached."
           />,
         );
 
@@ -96,7 +96,7 @@ const FormComponent = () => {
               required
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Mensagem"
+              placeholder="Message"
             />
           </Form.Control>
         </Form.Field>

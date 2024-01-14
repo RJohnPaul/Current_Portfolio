@@ -3,7 +3,7 @@ import { Typography } from "./Typography";
 const Biography = () => {
   const getAge = () => {
     const now = new Date();
-    const dateOfBirth = new Date("2005-11-10");
+    const dateOfBirth = new Date("2005-05-31");
     const yearOfBirth = dateOfBirth.getFullYear();
     const currentYear = now.getFullYear();
 
@@ -23,38 +23,38 @@ const Biography = () => {
   return (
     <div className="space-y-3">
       <Typography className="leading-relaxed">
-        Ei! Me chamo Gustavo Rodrigues, sou um{" "}
-        <span className="text-primary/80">desenvolvedor web</span> de{" "}
-        <span className="text-primary/80">{getAge()} anos</span> com residência
-        na área de <span className="text-primary/80">São Paulo</span>. Sou
-        formado em Técnico em Informática para Internet pela{" "}
+        Hi I'm John Paul, i am a {" "}
+        <span className="text-primary/80">web developer. I am currently</span>{" "}
+        <span className="text-primary/80">{getAge()} years old</span>&nbsp;.&nbsp;i was born in
+        <span className="text-primary/80">&nbsp;India</span>. i
+        am currently pursuing my Bachelor's degree in Computer Engineering at{" "}
         <a
-          href="https://www.cps.sp.gov.br/etec/"
+          href="https://www.srmist.edu.in/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary/80 underline decoration-primary/50 underline-offset-4 duration-300 hover:decoration-primary/80"
         >
-          ETEC
+         SRM Institute of Science and Technology
         </a>
         .
       </Typography>
       <Typography className="leading-relaxed">
-        Ao longo de mais de{" "}
-        <span className="text-primary/80">dois anos de estudo</span> no campo do
-        desenvolvimento web, adquiri significativa experiência na criação de
-        soluções digitais. Meu foco atual está direcionado para a exploração de{" "}
-        <span className="text-primary/80">design systems</span>, na elaboração
-        de <span className="text-primary/80">interfaces inovadoras</span> e na
-        capacidade de transformar códigos em experiências de usuário
-        verdadeiramente excepcionais.
+        Over more than{" "}
+        <span className="text-primary/80">3+ years of study</span> in the field of
+        web development,design and 2 years in app development I have gained significant experience in creating digital
+        solutions. My current focus is on exploring{" "}
+        <span className="text-primary/80">design systems</span>, crafting{" "}
+        <span className="text-primary/80">innovative interfaces</span>, and the ability
+        to turn code into truly exceptional user experiences.
       </Typography>
       <Typography className="leading-relaxed">
         <span className="text-primary/80">
-          Busco manter-me constantemente atualizado
+          I strive to stay constantly updated
         </span>{" "}
-        com as últimas tendências do mercado, demonstrando um comprometimento em
-        fazer a diferença em todos os projetos nos quais estou envolvido.
+        with the latest market trends, demonstrating a commitment to making a
+        difference in every project I am involved in.I currently have 50+ reposistories on my github account and 20+ projects from python to react to C etc on my portfolio.
       </Typography>
+
     </div>
   );
 };

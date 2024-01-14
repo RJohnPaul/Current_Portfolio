@@ -62,7 +62,7 @@ const ProjectPage = ({ params }: { params: any }) => {
             className="flex w-fit items-center gap-1 text-sm font-medium text-neutral-500 duration-500 hover:gap-2 hover:text-foreground"
           >
             <Undo2 size={16} />
-            Voltar
+            Back
           </Link>
           <div className="flex flex-col justify-between gap-6 md:flex-row md:items-center">
             <div className="space-y-2">
@@ -71,17 +71,17 @@ const ProjectPage = ({ params }: { params: any }) => {
             <div className="flex flex-wrap items-center gap-2">
               {visit && (
                 <a href={visit} target="_blank" rel="noopener noreferrer">
-                  <Button variant="dark" className="rounded-full px-4 py-3">
+                  <Button variant="dark" className="rounded-full px-4 py-3 shadow-sm hover:shadow-sm shadow-white/60 hover:shadow-white">
                     <Eye size={18} />
-                    Visualizar
+                    Live
                   </Button>
                 </a>
               )}
               {code && (
                 <a href={code} target="_blank" rel="noopener noreferrer">
-                  <Button variant="dark" className="rounded-full px-4 py-3">
+                  <Button variant="dark" className="rounded-full px-4 py-3 shadow-sm hover:shadow-sm shadow-white/60 hover:shadow-white">
                     <Github size={18} />
-                    Código fonte
+                    Source Code
                   </Button>
                 </a>
               )}
@@ -106,7 +106,7 @@ const ProjectPage = ({ params }: { params: any }) => {
           </div>
           <div className="space-y-4">
             <Title variant="title" size="lg">
-              Tecnologias utilizadas
+              Technologies Used
             </Title>
             <ul className="flex flex-wrap items-center gap-3">
               {techs.map((tech, index) => (

@@ -24,14 +24,14 @@ const Clock = () => {
     };
   }, []);
 
-  const hour = date.toLocaleString("pt-BR", {
+  const hour = date.toLocaleString("en-IN", {
     hour: "2-digit",
     minute: "numeric",
     second: "numeric",
   });
 
   return (
-    <Tooltip text={`${hour} GMT-3`}>
+    <Tooltip text={`${hour} GMT-4:30`}>
       <Lottie
         lottieRef={clockRef}
         animationData={clockIcon}

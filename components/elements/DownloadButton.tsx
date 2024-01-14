@@ -15,7 +15,7 @@ const DownloadButton = () => {
 
   return (
     <a
-      href="/Gustavo Rodrigues.pdf"
+      href="/John_Portfolio.pdf"
       download
       onClick={() =>
         toast.success(

@@ -32,7 +32,7 @@ const SendButton = (props: SendButtonProps) => {
           loop={true}
         />
       ) : (
-        <span>Enviar</span>
+        <span>Send</span>
       )}
     </Button>
   );

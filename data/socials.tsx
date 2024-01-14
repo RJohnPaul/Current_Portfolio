@@ -8,17 +8,17 @@ type Socials = Array<{
 
 export const socials: Socials = [
   {
-    href: "https://github.com/guhrodriguess",
+    href: "https://github.com/RJohnPaul",
     name: "GitHub",
     icon: <Github size={16} />,
   },
   {
-    href: "https://www.linkedin.com/in/guhrodrigues",
+    href: "https://www.linkedin.com/in/john-paul-572496278/",
     name: "LinkedIn",
     icon: <Linkedin size={16} />,
   },
   {
-    href: "https://www.instagram.com/guhrodrrigues",
+    href: "https://www.instagram.com/__jp__fr",
     name: "Instagram",
     icon: <Instagram size={16} />,
   },

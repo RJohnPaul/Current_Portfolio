@@ -34,21 +34,21 @@ const DesktopProfile = () => {
         })}
       >
         <div className="h-[100px] w-[100px] overflow-hidden rounded-full">
-          <Image src={author} alt="Gustavo" zoomHover={true} />
+          <Image src={author} alt="John" zoomHover={true} />
         </div>
       </div>
       <div className="flex flex-col">
         <Title variant="title" size="lg">
-          Gustavo Rodrigues
+          John Paul
         </Title>
         <a
-          href="https://github.com/guhrodriguess"
+          href="https://github.com/RJohnPaul"
           target="_blank"
           rel="noopener noreferrer"
           className="-mt-1.5 w-fit"
         >
           <Typography className="select-none text-sm font-medium text-neutral-500 duration-300 hover:text-foreground">
-            @guhrodriguess
+            @RJohnPaul
           </Typography>
         </a>
       </div>
@@ -59,7 +59,7 @@ const DesktopProfile = () => {
           </div>
         </div>
         <Typography size="xs" variant="muted">
-          disponível para contratação
+          active on github and linkedin
         </Typography>
       </div>
     </>

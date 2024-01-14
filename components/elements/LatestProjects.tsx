@@ -19,7 +19,7 @@ const LatestProjects = () => {
     <>
       <div className="flex items-center justify-between">
         <Title variant="title" size="lg">
-          Projetos recentes
+          Recent Projects
         </Title>
         <Link
           href="/projects"
@@ -27,7 +27,7 @@ const LatestProjects = () => {
           onMouseEnter={() => arrowRef.current?.play()}
           onMouseLeave={() => arrowRef.current?.stop()}
         >
-          <span>Ver todos</span>
+          <span>See all</span>
           <Lottie
             lottieRef={arrowRef}
             animationData={arrowIcon}

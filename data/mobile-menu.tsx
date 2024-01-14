@@ -9,17 +9,17 @@ type NavLinks = Array<{
 const navLinks: NavLinks = [
   {
     path: "/about",
-    name: "Sobre",
+    name: "About",
     icon: <User2 size={16} />,
   },
   {
     path: "/projects",
-    name: "Projetos",
+    name: "Projects",
     icon: <Braces size={16} />,
   },
   {
     path: "/contact",
-    name: "Contato",
+    name: "Contact",
     icon: <Mail size={16} />,
   },
 ];

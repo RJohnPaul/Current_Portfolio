@@ -66,47 +66,47 @@ const CommandMenu = () => {
 
   const groups: Groups = [
     {
-      heading: "Navegação",
+      heading: "Navigation",
       actions: [
         {
-          name: "Início",
+          name: "Home",
           icon: <Home />,
           onSelect: () => forwardToRoute("/"),
         },
         {
-          name: "Sobre",
+          name: "About",
           icon: <User />,
           onSelect: () => forwardToRoute("/about"),
         },
         {
-          name: "Projetos",
+          name: "Projects",
           icon: <LayoutGrid />,
           onSelect: () => forwardToRoute("/projects"),
         },
         {
-          name: "Contato",
+          name: "Contact",
           icon: <MessageCircle />,
           onSelect: () => forwardToRoute("/contact"),
         },
       ],
     },
     {
-      heading: "Redes sociais",
+      heading: "Socials",
       actions: [
         {
           name: "GitHub",
           icon: <Github />,
-          onSelect: () => openLink("https://github.com/guhrodriguess"),
+          onSelect: () => openLink("https://github.com/RJohnPaul"),
         },
         {
           name: "LinkedIn",
           icon: <Linkedin />,
-          onSelect: () => openLink("https://linkedin.com/in/guhrodrigues"),
+          onSelect: () => openLink("https://www.linkedin.com/in/john-paul-572496278/"),
         },
         {
           name: "Instagram",
           icon: <Instagram />,
-          onSelect: () => openLink("https://instagram.com/guhrodrrigues"),
+          onSelect: () => openLink("https://instagram.com/__jp__fr"),
         },
       ],
     },
@@ -114,7 +114,7 @@ const CommandMenu = () => {
       heading: "Sugestões",
       actions: [
         {
-          name: "Copiar link",
+          name: "Copy Link",
           icon: <LinkIcon />,
           onSelect: async () => {
             setShowCommandMenu(false);
@@ -123,8 +123,8 @@ const CommandMenu = () => {
               await navigator.clipboard.writeText(window.location.href);
               toast.success(
                 <ToastMessage
-                  title="Copiado"
-                  message="Link copiado com sucesso."
+                  title="Copied"
+                  message="Link copied Successfully."
                 />,
               );
             } catch {
@@ -138,7 +138,7 @@ const CommandMenu = () => {
           },
         },
         {
-          name: "Código fonte",
+          name: "Source code",
           icon: <Code2 />,
           onSelect: () =>
             openLink("https://github.com/guhrodriguess/guhrodrigues.com"),
@@ -149,7 +149,7 @@ const CommandMenu = () => {
 
   return (
     <CommandDialog open={showCommandMenu} onOpenChange={setShowCommandMenu}>
-      <CommandInput placeholder="Comece a digitar para buscar..." />
+      <CommandInput placeholder="Search.." />
       <CommandList>
         <CommandEmpty>Nenhum resultado encontrado.</CommandEmpty>
         {groups.map((group) => (

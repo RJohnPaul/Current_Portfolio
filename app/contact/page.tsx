@@ -7,25 +7,25 @@ import { Socials } from "@/components/elements/Socials";
 import { AnimateEnter } from "@/components/elements/AnimateEnter";
 
 export const metadata: Metadata = {
-  title: "Contato",
+  title: "Contact",
   description:
-    "Sinta-se à vontade para entrar em contato e conversaremos sobre como podemos trabalhar juntos.",
+    "Feel free to get in touch, and we'll discuss how we can collaborate.",
 };
 
 const ContactPage = () => {
   return (
     <AnimateEnter className="max-w-[854px] space-y-12 max-lg:py-8 lg:w-4/5 lg:pt-8">
       <section className="space-y-6">
-        <Title variant="title">Contato</Title>
+        <Title variant="title">Contact</Title>
         <Typography className="leading-relaxed">
           <span className="text-primary/80">
-            Sinta-se à vontade para entrar em contato
+            Feel free to get in touch
           </span>{" "}
-          e conversaremos sobre como podemos trabalhar juntos.
+          and we'll discuss how we can collaborate.
         </Typography>
         <div>
           <Title variant="title" size="xl">
-            Minhas redes sociais
+            My Social Media
           </Title>
           <Socials />
         </div>
@@ -33,13 +33,12 @@ const ContactPage = () => {
       <section className="space-y-6">
         <div className="space-y-3">
           <Title variant="title" size="xl">
-            Mande um email, como nos velhos tempos
+            Send an Email, Like the Good Old Days
           </Title>
           <Typography className="leading-relaxed">
-            Se meu trabalho despertou seu interesse ou se você gostaria de
-            compartilhar feedback sobre este website,{" "}
+            If my work has caught your interest or if you would like to provide feedback about this website,{" "}
             <span className="text-primary/80">
-              ficarei aberto em trocar ideias
+              I'm open to exchanging ideas
             </span>
             .
           </Typography>

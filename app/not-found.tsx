@@ -28,7 +28,7 @@ const NotFoundPage = () => {
                   className="transition-transform duration-300 group-hover:-translate-x-0.5"
                   size={20}
                 />
-                voltar
+                back
               </Button>
             </Link>
           </div>

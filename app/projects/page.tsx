@@ -8,7 +8,7 @@ import { ProjectItem } from "@/components/elements/ProjectItem";
 import { AnimateEnter } from "@/components/elements/AnimateEnter";
 
 export const metadata: Metadata = {
-  title: "Projetos",
+  title: "Projects",
   description: "Canto pessoal da internet, onde mostra todos os meus projetos.",
 };
 
@@ -20,18 +20,19 @@ const ProjectsPage = () => {
   return (
     <AnimateEnter className="max-w-[854px] max-lg:py-8 lg:w-4/5 lg:pt-8">
       <section>
-        <Title variant="title">Trabalho, hobby & open source</Title>
+        <Title variant="title">Hobby & Open Source</Title>
         <Typography className="my-6 leading-relaxed">
-          Sou{" "}
+          I am{" "}
           <span className="text-primary/80">
-            fanático pela criação de novos projetos
+            passionate about creating new projects
           </span>
-          , pois é a maior chave para ganhar conhecimento. Nesta página você
-          pode navegar para{" "}
+          , as it is the greatest key to gaining knowledge. On this page, you can navigate to{" "}
           <span className="text-primary/80">
-            {getTotalProjects()} aplicações
+            {getTotalProjects()} applications
           </span>{" "}
-          na qual desenvolvi.
+          that I have developed.
+
+
         </Typography>
       </section>
       <ul className="grid place-items-center gap-4 md:grid-cols-2">

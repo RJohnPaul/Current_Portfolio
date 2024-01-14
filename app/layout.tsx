@@ -25,10 +25,10 @@ const calsans = localFont({
 });
 
 export const metadata: Metadata = {
-  authors: [{ name: "Gustavo Rodrigues", url: "https://guhrodrigues.com" }],
+  authors: [{ name: "John Paul", url: "https://guhrodrigues.com" }],
   category: "developer",
-  creator: "Gustavo Rodrigues",
-  title: "Gustavo Rodrigues",
+  creator: "John Paul",
+  title: "John Paul",
   description:
     "Criando experiências digitais que combinem perfeitamente a estética elegante com a funcionalidade excepcional. Minha paixão é transformar código em experiências incríveis, garantindo que cada projeto conte uma história única e envolvente na web.",
   icons: {
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
       },
     ],
     locale: "pt-BR",
-    title: "Gustavo Rodrigues – Transformando código em experiências únicas",
+    title: "John Paul – Portfolio",
     type: "website",
     url: "https://guhrodrigues.com",
   },
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@guhrodrrigues",
-    title: "Gustavo Rodrigues – Transformando código em experiências únicas",
+    title: "John Paul – Portfolio",
   },
 };
 

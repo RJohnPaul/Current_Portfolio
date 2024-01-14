@@ -60,7 +60,7 @@ const Stack = () => {
   return (
     <section className="relative flex flex-col gap-4 overflow-hidden rounded-lg border border-border/50 bg-muted p-5">
       <Title variant="title" size="xl">
-        Habilidades
+        My Skills
       </Title>
       <div className="relative flex flex-col justify-start gap-y-4 overflow-hidden py-2">
         {sliders}

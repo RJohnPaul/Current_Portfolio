@@ -11,12 +11,12 @@ const SidebarFooter = () => {
       >
         © {new Date().getFullYear()} —{" "}
         <a
-          href="https://github.com/guhrodriguess/guhrodrigues.com"
+          href="https://github.com/RJohnPaul"
           target="_blank"
           rel="noopener noreferrer"
           className="duration-300 hover:text-primary/70"
         >
-          Gustavo Rodrigues
+          John Paul
         </a>
       </Typography>
       <div className="flex items-center gap-1">
