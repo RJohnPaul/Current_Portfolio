@@ -25,12 +25,12 @@ const calsans = localFont({
 });
 
 export const metadata: Metadata = {
-  authors: [{ name: "John Paul", url: "https://guhrodrigues.com" }],
+  authors: [{ name: "John Paul", url: "https://john-portfolio.vercel.app" }],
   category: "developer",
   creator: "John Paul",
   title: "John Paul",
   description:
-    "Criando experiências digitais que combinem perfeitamente a estética elegante com a funcionalidade excepcional. Minha paixão é transformar código em experiências incríveis, garantindo que cada projeto conte uma história única e envolvente na web.",
+    "Creating digital experiences that perfectly combine elegant aesthetics with exceptional functionality. Minhao is transforming code into incredible experiences, ensuring that each project tells a unique and immersive story on the web.",
   icons: {
     apple: "/favicon.svg",
     icon: "/favicon.svg",

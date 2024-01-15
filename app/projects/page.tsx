@@ -9,7 +9,7 @@ import { AnimateEnter } from "@/components/elements/AnimateEnter";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Canto pessoal da internet, onde mostra todos os meus projetos.",
+  description: "Few of my projects that I have developed.",
 };
 
 const ProjectsPage = () => {

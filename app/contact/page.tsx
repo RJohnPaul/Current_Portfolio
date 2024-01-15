@@ -21,7 +21,7 @@ const ContactPage = () => {
           <span className="text-primary/80">
             Feel free to get in touch
           </span>{" "}
-          and we'll discuss how we can collaborate.
+          and we&apos;ll discuss how we can collaborate.
         </Typography>
         <div>
           <Title variant="title" size="xl">
@@ -38,7 +38,7 @@ const ContactPage = () => {
           <Typography className="leading-relaxed">
             If my work has caught your interest or if you would like to provide feedback about this website,{" "}
             <span className="text-primary/80">
-              I'm open to exchanging ideas
+              I&apos;m open to exchanging ideas
             </span>
             .
           </Typography>

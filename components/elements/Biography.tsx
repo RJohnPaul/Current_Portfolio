@@ -23,11 +23,11 @@ const Biography = () => {
   return (
     <div className="space-y-3">
       <Typography className="leading-relaxed">
-        Hi I'm John Paul, i am a {" "}
+        Hi I&apos;m John Paul, i am a {" "}
         <span className="text-primary/80">web developer. I am currently</span>{" "}
-        <span className="text-primary/80">{getAge()} years old</span>&nbsp;.&nbsp;i was born in
+        <span className="text-primary/80">{getAge()} years old</span>&apos;.&apos;i was born in
         <span className="text-primary/80">&nbsp;India</span>. i
-        am currently pursuing my Bachelor's degree in Computer Engineering at{" "}
+        am currently pursuing my Bachelor&apos;s degree in Computer Engineering at{" "}
         <a
           href="https://www.srmist.edu.in/"
           target="_blank"
