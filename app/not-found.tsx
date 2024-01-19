@@ -9,7 +9,7 @@ import { Button } from "@/components/elements/Button";
 
 export const metadata: Metadata = {
   title: "Not Found",
-  description: "A página que você está tentando acessar não existe.",
+  description: "Page not found.",
 };
 
 const NotFoundPage = () => {
@@ -17,9 +17,9 @@ const NotFoundPage = () => {
     <main className="flex max-w-[854px] items-center justify-center py-8 lg:w-4/5 lg:py-0">
       <section className="flex flex-col items-center justify-center p-8">
         <div className="flex flex-col gap-4 text-center">
-          <Title variant="title">Página não encontrada</Title>
+          <Title variant="title">Page Ain't Pagin</Title>
           <Typography>
-            A rota que você está tentando acessar não existe.
+            Basically the basic be missing.
           </Typography>
           <div className="flex items-center justify-center gap-4">
             <Link href="/">
