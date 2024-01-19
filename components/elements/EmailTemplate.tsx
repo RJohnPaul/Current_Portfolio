@@ -30,7 +30,7 @@ const EmailTemplate = ({ name, message, email }: EmailTemplateProps) => {
           <Container className={`mx-auto my-[40px] w-[465px] rounded-lg border border-solid border-[#eaeaea] p-[20px]`}>
             <Section className="mt-[32px]">
               <Img
-                src="https://i.imgur.com/z0zDFp7.png"
+                src="https://i.imgur.com/rq2NJxh.png"
                 width="60"
                 height="60"
                 alt="Logo Gustavo Rodrigues"

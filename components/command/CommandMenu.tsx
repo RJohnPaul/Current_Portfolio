@@ -111,7 +111,7 @@ const CommandMenu = () => {
       ],
     },
     {
-      heading: "Sugestões",
+      heading: "Quick Menu",
       actions: [
         {
           name: "Copy Link",
@@ -130,8 +130,8 @@ const CommandMenu = () => {
             } catch {
               toast.error(
                 <ToastMessage
-                  title="Não copiado"
-                  message="Erro ao copiar link."
+                  title="Error"
+                  message="Error while copying link"
                 />,
               );
             }
@@ -141,7 +141,7 @@ const CommandMenu = () => {
           name: "Source code",
           icon: <Code2 />,
           onSelect: () =>
-            openLink("https://github.com/guhrodriguess/guhrodrigues.com"),
+            openLink("https://github.com/RJohnPaul/Current_Portfolio"),
         },
       ],
     },
@@ -151,7 +151,7 @@ const CommandMenu = () => {
     <CommandDialog open={showCommandMenu} onOpenChange={setShowCommandMenu}>
       <CommandInput placeholder="Search.." />
       <CommandList>
-        <CommandEmpty>Nenhum resultado encontrado.</CommandEmpty>
+        <CommandEmpty>Result not found</CommandEmpty>
         {groups.map((group) => (
           <CommandGroup key={group.heading} heading={group.heading}>
             {group.actions.map((action) => (

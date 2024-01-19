@@ -59,7 +59,7 @@ const DesktopProfile = () => {
           </div>
         </div>
         <Typography size="xs" variant="muted">
-          active on github and linkedin
+          Active on Github and Linkedin
         </Typography>
       </div>
     </>

@@ -28,7 +28,7 @@ const ProjectsPage = () => {
           </span>
           , as it is the greatest key to gaining knowledge. On this page, you can navigate to{" "}
           <span className="text-primary/80">
-            {getTotalProjects()} applications
+            the&nbsp;{getTotalProjects()}+&nbsp;applications
           </span>{" "}
           that I have developed.
 

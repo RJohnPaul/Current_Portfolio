@@ -33,7 +33,7 @@ const ContactPage = () => {
       <section className="space-y-6">
         <div className="space-y-3">
           <Title variant="title" size="xl">
-            Send an Email, Like the Good Old Days
+            Send an Email, Like the Good Old Days *it actually works*
           </Title>
           <Typography className="leading-relaxed">
             If my work has caught your interest or if you would like to provide feedback about this website,{" "}

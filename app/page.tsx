@@ -22,10 +22,10 @@ const HomePage = () => {
             Changing the world one code at a time.
           </span>
           <span className="text-primary/80">
-             &nbsp;Original Design by<a className="cursor-pointer hover:text-green-500 underline transition-all duration-350" target="_blank" href="https://guhrodrigues.com" rel="noopener noreferrer">guhrodrigues</a>
+             &nbsp;Original Design by&nbsp;<a className="cursor-pointer hover:text-green-500 underline transition-all duration-350" target="_blank" href="https://guhrodrigues.com" rel="noopener noreferrer">guhrodrigues</a>
           </span>
           <span className="text-primary/80">
-             &nbsp;And ReDesign by<a className="cursor-pointer hover:text-green-500 underline transition-all duration-350" target="_blank" href="https://github.com/RJohnPaul" rel="noopener noreferrer">John Paul</a>
+             &nbsp;And ReDesign by&nbsp;<a className="cursor-pointer hover:text-green-500 underline transition-all duration-350" target="_blank" href="https://github.com/RJohnPaul" rel="noopener noreferrer">John Paul</a>
           </span>
         </Typography>
       </section>

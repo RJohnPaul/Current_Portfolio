@@ -3,12 +3,7 @@ import { StaticImageData } from "next/image";
 import xtractai from "@/assets/images/projects/xtractai.png";
 import portfolio from "@/assets/images/projects/portfolio.png";
 import qwick from "@/assets/images/projects/qwick.png";
-import swiftmart from "@/assets/images/projects/swiftmart.png";
-import moviecorn from "@/assets/images/projects/moviecorn.png";
-import crypto from "@/assets/images/projects/crypto.png";
-import weather from "@/assets/images/projects/weather.png";
-import todo from "@/assets/images/projects/todo.png";
-import musicplayer from "@/assets/images/projects/musicplayer.png";
+import events from "@/assets/images/projects/events.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
@@ -176,15 +171,15 @@ const projects: Projects = [
         name: "RapidAPI",
       },
     ],
-    code: "https://github.com/guhrodriguess/sharespace",
-    visit: "https://sharespacelab.vercel.app",
+    code: "https://github.com/RJohnPaul/Xtract-AI-MLH",
+    visit: "https://xtractai.netlify.app",
     slug: "sharespace",
   },
   {
-    image: swiftmart,
+    image: events,
     title: "Events Starter",
     smallDescription:
-      "Simple HTML/CSS in React Starter Page.",
+      "Simple HTML/CSS in React Starter Page. with custom css components",
     description: [
       {
         content:
@@ -211,7 +206,7 @@ const projects: Projects = [
     ],
     code: "https://github.com/RJohnPaul/Event_Page_Starter",
     visit: "https://event-page-starter.vercel.app/",
-    slug: "swiftmart",
+    slug: "events",
   },
   
 ];
