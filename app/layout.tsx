@@ -37,12 +37,6 @@ export const metadata: Metadata = {
     shortcut: "/favicon.svg",
   },
   keywords: [
-    "Gustavo Rodrigues",
-    "guhrodrigues.com",
-    "Technology",
-    "Desenvolvedor Web",
-    "Desenvolvedor Front-end",
-    "Desenvolvedor FullStack",
     "Web Developer",
     "Front-end Developer",
     "FullStack Developer",
@@ -50,9 +44,6 @@ export const metadata: Metadata = {
     "FullStack",
     "Developer",
     "Software",
-    "São Paulo",
-    "Design",
-    "Brazil",
     "Vercel",
     "Next.js",
     "React",
@@ -65,13 +56,13 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     description:
-      "Criando experiências digitais que combinem perfeitamente a estética elegante com a funcionalidade excepcional. Minha paixão é transformar código em experiências incríveis, garantindo que cada projeto conte uma história única e envolvente na web.",
+      "Creating digital experiences that perfectly combine elegant aesthetics with exceptional functionality. Minhao is transforming code into incredible experiences, ensuring that each project tells a unique and immersive story on the web.",
     images: [
       {
         width: 1920,
         height: 1080,
         url: "https://i.imgur.com/YyeR5Mn.png",
-        alt: "Gustavo Rodrigues",
+        alt: "heh",
       },
     ],
     locale: "pt-BR",

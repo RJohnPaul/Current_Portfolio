@@ -20,8 +20,8 @@ const DownloadButton = () => {
       onClick={() =>
         toast.success(
           <ToastMessage
-            title="Instalado"
-            message="Currículo baixado com sucesso."
+            title="Success"
+            message="C.V downloaded successfully."
           />,
         )
       }
