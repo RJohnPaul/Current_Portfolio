@@ -50,8 +50,8 @@ const FormComponent = () => {
       .catch(() => {
         toast.error(
           <ToastMessage
-            title="Não enviado"
-            message="Ocorreu um erro ao enviar este e-mail."
+            title="Message Failed"
+            message="Please Check your internet connection."
           />,
         );
       });

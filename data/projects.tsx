@@ -4,9 +4,12 @@ import xtractai from "@/assets/images/projects/xtractai.png";
 import portfolio from "@/assets/images/projects/portfolio.png";
 import qwick from "@/assets/images/projects/qwick.png";
 import events from "@/assets/images/projects/events.png";
+import weatherwave from "@/assets/images/projects/weatherwave.png";
+import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
+import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
 import css from "@/assets/images/skills/css.svg";
 import nextjs from "@/assets/images/skills/nextjs.svg";
@@ -22,6 +25,7 @@ import javascript from "@/assets/images/skills/javascript.svg";
 import styled_components from "@/assets/images/skills/styled-components.svg";
 import tailwind from "@/assets/images/skills/tailwindcss.svg";
 import framer from "@/assets/images/skills/framer.svg";
+import next from "next";
 
 type Projects = Array<{
   image: StaticImageData;
@@ -42,7 +46,7 @@ type Projects = Array<{
 const projects: Projects = [
   {
     image: portfolio,
-    title: "Portfolio",
+    title: "3D-Portfolio",
     smallDescription:
       "Simple Redesigned Portfolio Website with Next.js and Tailwind CSS.",
     description: [
@@ -97,44 +101,6 @@ const projects: Projects = [
     slug: "portfolio",
   },
   {
-    image: qwick,
-    title: "QwickPizza",
-    smallDescription: "A sample website for a pizza shop using React Hook Methadology and Next.js.",
-    description: [
-      {
-        content:
-          "A sample website for a pizza shop which contains a set of diffrent pizzas and contains a set of addition, deletion buttons ",
-      },
-      {
-        content:
-          "These are purely react hook based components and are made using nextjs and tailwind css.",
-      },
-    
-    ],
-    techs: [
-      {
-        image: nextjs,
-        name: "Next.js",
-      },
-      {
-        image: javascript,
-        name: "JavaScript",
-      },
-      
-      {
-        image: tailwind,
-        name: "Tailwind CSS",
-      },
-      {
-        image: react,
-        name: "React",
-      },
-    ],
-    code: "https://github.com/RJohnPaul/QwickPizza",
-    visit: "https://qwick-pizza.vercel.app",
-    slug: "qwickpizza",
-  },
-  {
     image: xtractai,
     title: "XtractAI",
     smallDescription:
@@ -173,7 +139,45 @@ const projects: Projects = [
     ],
     code: "https://github.com/RJohnPaul/Xtract-AI-MLH",
     visit: "https://xtractai.netlify.app",
-    slug: "sharespace",
+    slug: "xtractai",
+  },
+  {
+    image: qwick,
+    title: "QwickPizza",
+    smallDescription: "A sample website for a pizza shop using React Hook Methadology and Next.js.",
+    description: [
+      {
+        content:
+          "A sample website for a pizza shop which contains a set of diffrent pizzas and contains a set of addition, deletion buttons ",
+      },
+      {
+        content:
+          "These are purely react hook based components and are made using nextjs and tailwind css.",
+      },
+    
+    ],
+    techs: [
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: react,
+        name: "React",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/QwickPizza",
+    visit: "https://qwick-pizza.vercel.app",
+    slug: "qwickpizza",
   },
   {
     image: events,
@@ -207,6 +211,76 @@ const projects: Projects = [
     code: "https://github.com/RJohnPaul/Event_Page_Starter",
     visit: "https://event-page-starter.vercel.app/",
     slug: "events",
+  },
+  {
+    image: weatherwave,
+    title: "Weatherwave",
+    smallDescription:
+      "WeatherWave is an AI weather tool that uses RapidAPI to show live broadcasts.",
+    description: [
+      {
+        content:
+          "Utilizing RapidAPI, this powerful AI Weather App can generate custom weather broadcasts for city from all diverse locations",
+      },
+      {
+        content:
+          "In my project, I utilized NextJS, a JavaScript library for building user interfaces, along with Typescript and TailwindCSS, a utility-first CSS framework for easy styling of web pages, and RapidAPI, a marketplace enabling access to a variety of AI services.",
+      },
+    ],
+    techs: [
+      {
+        image: typescript,
+        name: "Typescript",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: rapidapi,
+        name: "RapidAPI",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/WeatherWave",
+    visit: "https://tinyurl.com/weatherwave",
+    slug: "weatherwave",
+  },
+  {
+    image: bootstrapstart,
+    title: "Bootstrap Starter",
+    smallDescription:
+      "Simple Bootstrap Starter with custom css components for beginners.",
+    description: [
+      {
+        content:
+          "A Simple Bootstrap Starter page for beginners to kickstart Bootstrap framework or is looking for a template.",
+      },
+    ],
+    techs: [
+      {
+        image: html,
+        name: "HTML",
+      },
+      {
+        image: css,
+        name: "CSS",
+      },
+      {
+        image: bootstrap,
+        name: "Bootstrap",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/Bootstrap_Startup_Template",
+    visit: "https://event-page-starter.vercel.app/",
+    slug: "bootstrap-starter",
   },
   
 ];

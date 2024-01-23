@@ -68,12 +68,12 @@ export const metadata: Metadata = {
     locale: "pt-BR",
     title: "John Paul – Portfolio",
     type: "website",
-    url: "https://guhrodrigues.com",
+    url: "https://htps://john-porfolio.vercel.app",
   },
-  publisher: "Gustavo Rodrigues",
+  publisher: "John Paul",
   twitter: {
     card: "summary_large_image",
-    site: "@guhrodrrigues",
+    site: "@RJohnPaul",
     title: "John Paul – Portfolio",
   },
 };
