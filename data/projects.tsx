@@ -6,6 +6,7 @@ import qwick from "@/assets/images/projects/qwick.png";
 import events from "@/assets/images/projects/events.png";
 import weatherwave from "@/assets/images/projects/weatherwave.png";
 import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
+import buildme from "@/assets/images/projects/Buildme.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
@@ -277,10 +278,47 @@ const projects: Projects = [
         image: bootstrap,
         name: "Bootstrap",
       },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
     ],
     code: "https://github.com/RJohnPaul/Bootstrap_Startup_Template",
     visit: "https://event-page-starter.vercel.app/",
     slug: "bootstrap-starter",
+  },
+  {
+    image: buildme,
+    title: "BuildMe",
+    smallDescription:
+      "Simple Bootstrap Starter Page with custom css components useful for beginners.",
+    description: [
+      {
+        content:
+          "A Simple Bootstrap Starter page for beginners to kickstart Bootstrap framework or is looking for a template to work or develop on.",
+      },
+    ],
+    techs: [
+      {
+        image: html,
+        name: "HTML",
+      },
+      {
+        image: css,
+        name: "CSS",
+      },
+      {
+        image: bootstrap,
+        name: "Bootstrap",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/Buildme",
+    visit: "https://buildme.vercel.app/",
+    slug: "buildme",
   },
   
 ];
