@@ -7,21 +7,25 @@ import events from "@/assets/images/projects/events.png";
 import weatherwave from "@/assets/images/projects/weatherwave.png";
 import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
 import buildme from "@/assets/images/projects/Buildme.png";
+import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import tulip from "@/assets/images/projects/tulip.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
+import sass from "@/assets/images/skills/sass.svg";
 import css from "@/assets/images/skills/css.svg";
 import nextjs from "@/assets/images/skills/nextjs.svg";
 import radix from "@/assets/images/skills/radix.svg";
 import vite from "@/assets/images/skills/vite.svg";
+import gatsby from "@/assets/images/skills/gatsby.svg";
 import shadcn from "@/assets/images/skills/shadcn.svg";
 import mongo from "@/assets/images/skills/mongo.svg";
 import nextauth from "@/assets/images/skills/next-auth.svg";
 import openai from "@/assets/images/skills/openai.svg";
 import react from "@/assets/images/skills/react.svg";
+import contentful from "@/assets/images/skills/contentful.svg";
 import typescript from "@/assets/images/skills/typescript.svg";
 import javascript from "@/assets/images/skills/javascript.svg";
 import styled_components from "@/assets/images/skills/styled-components.svg";
@@ -145,44 +149,6 @@ const projects: Projects = [
     slug: "xtractai",
   },
   {
-    image: qwick,
-    title: "QwickPizza",
-    smallDescription: "A sample website for a pizza shop using React Hook Methadology and Next.js.",
-    description: [
-      {
-        content:
-          "A sample website for a pizza shop which contains a set of diffrent pizzas and contains a set of addition, deletion buttons ",
-      },
-      {
-        content:
-          "These are purely react hook based components and are made using nextjs and tailwind css.",
-      },
-    
-    ],
-    techs: [
-      {
-        image: nextjs,
-        name: "Next.js",
-      },
-      {
-        image: javascript,
-        name: "JavaScript",
-      },
-      
-      {
-        image: tailwind,
-        name: "Tailwind CSS",
-      },
-      {
-        image: react,
-        name: "React",
-      },
-    ],
-    code: "https://github.com/RJohnPaul/QwickPizza",
-    visit: "https://qwick-pizza.vercel.app",
-    slug: "qwickpizza",
-  },
-  {
     image: tulip,
     title: "TenderTulip",
     smallDescription: "A website build for a company with advanced features like authentication,etc",
@@ -227,6 +193,91 @@ const projects: Projects = [
    
     visit: "https://tulips.technology",
     slug: "tendertulip",
+  },
+  {
+    image: gatsbystarter,
+    title: "Gatsby-Blog",
+    smallDescription: "A Starter Blog website build for beginners with advanced features like contentful,tailwindcss etc",
+    description: [
+      {
+        content:
+          "A complex Blog website which contains several styled components and also uses gatsby for routing and tailwind css for styling.",
+      },
+      {
+        content:
+          "Contentful is used for storing data in the backend. and framer motion is used for animations. and also uses gatsby-image for image optimization. and also uses gatsby-plugin-sass for styling. and also uses gatsby-plugin-google-fonts for fonts.",
+      },
+    
+    ],
+    techs: [
+      {
+        image: gatsby,
+        name: "Gatsby",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: sass,
+        name: "SCSS",
+      },
+      {
+        image: framer,
+        name: "Framer Motion",
+      },
+      {
+        image: contentful,
+        name: "Contentful",
+      },
+    ],
+   
+    code:"https://github.com/RJohnPaul/Gatsby-Blog-Starter",
+    visit: "https://gatsby-blog-spanish.vercel.app/",
+    slug: "gatsby-blog",
+  },
+  {
+    image: qwick,
+    title: "QwickPizza",
+    smallDescription: "A sample website for a pizza shop using React Hook Methadology and Next.js.",
+    description: [
+      {
+        content:
+          "A sample website for a pizza shop which contains a set of diffrent pizzas and contains a set of addition, deletion buttons ",
+      },
+      {
+        content:
+          "These are purely react hook based components and are made using nextjs and tailwind css.",
+      },
+    
+    ],
+    techs: [
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: react,
+        name: "React",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/QwickPizza",
+    visit: "https://qwick-pizza.vercel.app",
+    slug: "qwickpizza",
   },
   {
     image: events,
