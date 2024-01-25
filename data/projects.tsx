@@ -7,6 +7,7 @@ import events from "@/assets/images/projects/events.png";
 import weatherwave from "@/assets/images/projects/weatherwave.png";
 import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
 import buildme from "@/assets/images/projects/Buildme.png";
+import tulip from "@/assets/images/projects/tulip.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
@@ -26,6 +27,7 @@ import javascript from "@/assets/images/skills/javascript.svg";
 import styled_components from "@/assets/images/skills/styled-components.svg";
 import tailwind from "@/assets/images/skills/tailwindcss.svg";
 import framer from "@/assets/images/skills/framer.svg";
+import firebase from "@/assets/images/skills/firebase.svg";
 import next from "next";
 
 type Projects = Array<{
@@ -179,6 +181,52 @@ const projects: Projects = [
     code: "https://github.com/RJohnPaul/QwickPizza",
     visit: "https://qwick-pizza.vercel.app",
     slug: "qwickpizza",
+  },
+  {
+    image: tulip,
+    title: "TenderTulip",
+    smallDescription: "A website build for a company with advanced features like authentication,etc",
+    description: [
+      {
+        content:
+          "A complex website for a company which contains several styled components and also uses nextjs for routing and tailwind css for styling.",
+      },
+      {
+        content:
+          "Firebase is used for authentication and also for storing data in the backend. and framer motion is used for animations.",
+      },
+    
+    ],
+    techs: [
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: react,
+        name: "React",
+      },
+      {
+        image: framer,
+        name: "Framer Motion",
+      },
+      {
+        image: firebase,
+        name: "Firebase",
+      },
+    ],
+   
+    visit: "https://tulips.technology",
+    slug: "tendertulip",
   },
   {
     image: events,
