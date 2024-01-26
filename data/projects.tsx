@@ -106,6 +106,7 @@ const projects: Projects = [
         name: "Three.js",
       },
     ],
+    code: "https://github.com/RJohnPaul/My_Portfolio",
     visit: "https://john-paul.vercel.app",
     slug: "portfolio",
   },
