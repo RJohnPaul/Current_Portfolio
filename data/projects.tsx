@@ -7,10 +7,12 @@ import events from "@/assets/images/projects/events.png";
 import weatherwave from "@/assets/images/projects/weatherwave.png";
 import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
 import buildme from "@/assets/images/projects/Buildme.png";
+import gatsbyportfolio from "@/assets/images/projects/gatsbyportfolio.png";
 import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import tulip from "@/assets/images/projects/tulip.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
+import netlify from "@/assets/images/skills/netlify.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
@@ -195,6 +197,47 @@ const projects: Projects = [
     slug: "tendertulip",
   },
   {
+    image: weatherwave,
+    title: "Weatherwave",
+    smallDescription:
+      "WeatherWave is an AI weather tool that uses RapidAPI to show live broadcasts.",
+    description: [
+      {
+        content:
+          "Utilizing RapidAPI, this powerful AI Weather App can generate custom weather broadcasts for city from all diverse locations",
+      },
+      {
+        content:
+          "In my project, I utilized NextJS, a JavaScript library for building user interfaces, along with Typescript and TailwindCSS, a utility-first CSS framework for easy styling of web pages, and RapidAPI, a marketplace enabling access to a variety of AI services.",
+      },
+    ],
+    techs: [
+      {
+        image: typescript,
+        name: "Typescript",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: rapidapi,
+        name: "RapidAPI",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/WeatherWave",
+    visit: "https://tinyurl.com/weatherwave",
+    slug: "weatherwave",
+  },
+  {
     image: gatsbystarter,
     title: "Gatsby-Blog",
     smallDescription: "A Starter Blog website build for beginners with advanced features like contentful,tailwindcss etc",
@@ -240,6 +283,53 @@ const projects: Projects = [
     code:"https://github.com/RJohnPaul/Gatsby-Blog-Starter",
     visit: "https://gatsby-blog-spanish.vercel.app/",
     slug: "gatsby-blog",
+  },
+  {
+    image: gatsbyportfolio,
+    title: "Gatsby-Portfolio",
+    smallDescription: "A Starter Portfolio website build for beginners with advanced features. It is fully customizable",
+    description: [
+      {
+        content:
+          "A complex Portfolio website powered by Gatsby which contains several styled components and also uses gatsby for routing and tailwind css for styling.",
+      },
+      {
+        content:
+          "This Portfolio contains several sections like intro,about,projects,contact,etc. and also uses gatsby-image for image optimization. and also uses gatsby-plugin-sass for styling. and also uses gatsby-plugin-google-fonts for fonts. and also uses gatsby-pl and all of the main changes can be done in markup language which is the most easiest way of doing so",
+      },
+    
+    ],
+    techs: [
+      {
+        image: gatsby,
+        name: "Gatsby",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: css,
+        name: "CSS",
+      },
+      {
+        image: sass,
+        name: "SCSS",
+      },
+      {
+        image: netlify,
+        name: "Netflify",
+      },
+      
+    ],
+   
+    code:"https://github.com/RJohnPaul/Gatsby-Portfolio",
+    visit: "https://chic-sawine-d9d12e.netlify.app/",
+    slug: "gatsby-portfolio",
   },
   {
     image: qwick,
@@ -312,47 +402,7 @@ const projects: Projects = [
     visit: "https://event-page-starter.vercel.app/",
     slug: "events",
   },
-  {
-    image: weatherwave,
-    title: "Weatherwave",
-    smallDescription:
-      "WeatherWave is an AI weather tool that uses RapidAPI to show live broadcasts.",
-    description: [
-      {
-        content:
-          "Utilizing RapidAPI, this powerful AI Weather App can generate custom weather broadcasts for city from all diverse locations",
-      },
-      {
-        content:
-          "In my project, I utilized NextJS, a JavaScript library for building user interfaces, along with Typescript and TailwindCSS, a utility-first CSS framework for easy styling of web pages, and RapidAPI, a marketplace enabling access to a variety of AI services.",
-      },
-    ],
-    techs: [
-      {
-        image: typescript,
-        name: "Typescript",
-      },
-      {
-        image: javascript,
-        name: "JavaScript",
-      },
-      {
-        image: nextjs,
-        name: "Next.js",
-      },
-      {
-        image: tailwind,
-        name: "Tailwind CSS",
-      },
-      {
-        image: rapidapi,
-        name: "RapidAPI",
-      },
-    ],
-    code: "https://github.com/RJohnPaul/WeatherWave",
-    visit: "https://tinyurl.com/weatherwave",
-    slug: "weatherwave",
-  },
+  
   {
     image: bootstrapstart,
     title: "Bootstrap Starter",
