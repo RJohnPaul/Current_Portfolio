@@ -17,7 +17,7 @@ const HomePage = () => {
         <Title variant="title">John Paul</Title>
         <Typography className="leading-relaxed">
           I&apos;m <span className="text-primary/80">Talented Web Developer and Designer</span>,
-          i experiment with web development frameworks mostly using ReactJS,NextJS,NextUI and Design using TailwindCSS as well as Vanilla CSS. I also design using Figma and have create 20+ Posters for my Projects.{" "}
+          i experiment with web development frameworks mostly using ReactJS,NextJS,NextUI and Design using TailwindCSS as well as VanillaCSS , I have 80+ Repos on My <a target="_blank" href="https://github.com/RJohnPaul" className="underline underline-offset-1 transition-all hover:text-green-500">Github.</a>&nbsp;I have also designed 30+ Posters using Figma that I have created for my Projects.{" "}
           <span className="text-primary/80">
             Changing the world one code at a time.
           </span>
