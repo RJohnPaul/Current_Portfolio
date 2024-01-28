@@ -25,7 +25,7 @@ const Biography = () => {
       <Typography className="leading-relaxed">
         Hi I&apos;m John Paul, i am a {" "}
         <span className="text-primary/80">web developer. I am currently</span>{" "}
-        <span className="text-primary/80">{getAge()} years old</span>&apos;.&apos;i was born in
+        <span className="text-primary/80">{getAge()} years old</span>&nbsp;.&nbsp;i was born in
         <span className="text-primary/80">&nbsp;India</span>. i
         am currently pursuing my Bachelor&apos;s degree in Computer Engineering at{" "}
         <a

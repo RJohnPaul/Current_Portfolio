@@ -9,6 +9,7 @@ import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
 import buildme from "@/assets/images/projects/Buildme.png";
 import gatsbyportfolio from "@/assets/images/projects/gatsbyportfolio.png";
 import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
+import basedetect from "@/assets/images/projects/basedetect.png";
 import tulip from "@/assets/images/projects/tulip.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
@@ -34,6 +35,7 @@ import styled_components from "@/assets/images/skills/styled-components.svg";
 import tailwind from "@/assets/images/skills/tailwindcss.svg";
 import framer from "@/assets/images/skills/framer.svg";
 import firebase from "@/assets/images/skills/firebase.svg";
+import kotlin from "@/assets/images/skills/kotlin.svg";
 import next from "next";
 
 type Projects = Array<{
@@ -331,6 +333,43 @@ const projects: Projects = [
     code:"https://github.com/RJohnPaul/Gatsby-Portfolio",
     visit: "https://chic-sawine-d9d12e.netlify.app/",
     slug: "gatsby-portfolio",
+  },
+  {
+    image: basedetect,
+    title: "Base-Detect",
+    smallDescription:
+      "Basedetect is an Android app that uses a AI/ML Model to diffrentiate foods.",
+    description: [
+      {
+        content:
+          "This App is an AI/ML based app that uses a model to diffrentiate foods and also uses a camera to detect.Three Sample Images are given along with the app to test the model.",
+      },
+      {
+        content:
+          "In my project, I utilized NextJS, a JavaScript library for building user interfaces, along with Typescript and TailwindCSS, a utility-first CSS framework for easy styling of web pages and Kotlin for the app development which is a very powerful language for android development. and also uses tensorflow lite for the model. and also uses cameraX for the camera.",
+      },
+    ],
+    techs: [
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: kotlin,
+        name: "Kotlin",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/food-classifier-app",
+    visit: "https://base-detect.vercel.app/",
+    slug: "basedetect",
   },
   {
     image: qwick,
