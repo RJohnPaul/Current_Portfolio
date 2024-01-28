@@ -26,6 +26,9 @@ Welcome to my cutting-edge portfolio website! Built with ❤️ using TypeScript
 - [Shadcn Component Library](https://ui.shadcn.com/)
 - [Resend API](https://resend.com/)
 
+## ✨ Demo
+ - **Try It Out - [Demo]**(https://john-porfolio.vercel.app)
+
 ## 🚀 Getting Started
 
 1. **Clone the Repository:**
