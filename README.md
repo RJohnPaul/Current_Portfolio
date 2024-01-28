@@ -1,5 +1,11 @@
 # My Portfolio Website 🌟
 
+<div align="center">
+  <br>
+      <img src="https://github.com/RJohnPaul/WeatherWave/blob/6702012e112101f83b8ab217d2e940083b4b5f22/weatherwave.png" alt="Project Banner">
+  </br>
+</div>
+</br>
 Welcome to my cutting-edge portfolio website! Built with ❤️ using TypeScript, [Next.js](https://nextjs.org/), Tailwind CSS, and the Shadcn component library, this portfolio showcases my diverse skill set and commitment to delivering polished and modern designs. 🚀
 
 ## ✨ Key Features
