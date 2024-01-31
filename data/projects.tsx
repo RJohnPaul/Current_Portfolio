@@ -10,10 +10,12 @@ import buildme from "@/assets/images/projects/Buildme.png";
 import gatsbyportfolio from "@/assets/images/projects/gatsbyportfolio.png";
 import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import basedetect from "@/assets/images/projects/basedetect.png";
+import srmcrypt from "@/assets/images/projects/srmcrypt.png";
 import tulip from "@/assets/images/projects/tulip.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
 import netlify from "@/assets/images/skills/netlify.svg";
+import metamask from "@/assets/images/skills/metamask.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
@@ -239,6 +241,43 @@ const projects: Projects = [
     code: "https://github.com/RJohnPaul/WeatherWave",
     visit: "https://tinyurl.com/weatherwave",
     slug: "weatherwave",
+  },
+  {
+    image: srmcrypt,
+    title: "SRMCyrpt",
+    smallDescription:
+      "SRMCyrpt is an crypto wallet that uses metamaskAPI to integrate with blockchain which was done for a hackathon.",
+    description: [
+      {
+        content:
+          "Utilizing MetaMaskAPI, this powerful Web App can be used for crypto transactions in the most seemless way possible.",
+      },
+      {
+        content:
+          "In my project, I utilized NextJS, a JavaScript library for building user interfaces, along with TailwindCSS, a utility-first CSS framework for easy styling of web pages, and MetaMaskAPI, a tool enabling access to a variety of crypto services this project was inspired by one of javascript mastery's projects.",
+      },
+    ],
+    techs: [
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: metamask,
+        name: "MetaMask",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/crypto-wallet-app",
+    visit: "https://crypto-wallet-app-ten.vercel.app/",
+    slug: "srmcrypt",
   },
   {
     image: gatsbystarter,
