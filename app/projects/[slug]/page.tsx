@@ -33,7 +33,7 @@ export const generateMetadata = async ({
       title,
       images: `${image}`,
       type: "website",
-      url: `https://guhrodrigues.com/projects/${slug}`,
+      url: `https://john-porfolio.vercel.app/projects/${slug}`,
     },
     twitter: {
       card: "summary_large_image",
