@@ -11,6 +11,7 @@ import gatsbyportfolio from "@/assets/images/projects/gatsbyportfolio.png";
 import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import basedetect from "@/assets/images/projects/basedetect.png";
 import srmcrypt from "@/assets/images/projects/srmcrypt.png";
+import todolist from "@/assets/images/projects/todolist.png";
 import tulip from "@/assets/images/projects/tulip.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
@@ -20,6 +21,8 @@ import rapidapi from "@/assets/images/skills/rapidapi.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
 import sass from "@/assets/images/skills/sass.svg";
+import expo from "@/assets/images/skills/expo.svg";
+import babel from "@/assets/images/skills/babel.svg";
 import css from "@/assets/images/skills/css.svg";
 import nextjs from "@/assets/images/skills/nextjs.svg";
 import radix from "@/assets/images/skills/radix.svg";
@@ -278,6 +281,43 @@ const projects: Projects = [
     code: "https://github.com/RJohnPaul/crypto-wallet-app",
     visit: "https://crypto-wallet-app-ten.vercel.app/",
     slug: "srmcrypt",
+  },
+  {
+    image: todolist,
+    title: "TodolistApp",
+    smallDescription:
+      "A Landing page for a todo list app which was done using simple css and react native and expo.",
+    description: [
+      {
+        content:
+          "Utilizing this app is a simple todo list app which can be used to add and delete tasks and also to mark them as done and also to delete them. and also to edit them. and also to add a description to",
+      },
+      {
+        content:
+          "In my project, I utilized ReactNative along with expo, a cross-platform library for building both in ios and android, along with Vanilla CSS,for easy styling of web pages, and Some logic for updating and deleting tasks.",
+      },
+    ],
+    techs: [
+      {
+        image: react,
+        name: "ReactNative",
+      },
+      {
+        image: babel,
+        name: "Babel",
+      },
+      {
+        image: css,
+        name: "CSS",
+      },
+      {
+        image: expo,
+        name: "Expo",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/Todolist_app",
+    visit: "http://tinyurl.com/todolistapplanding",
+    slug: "todolistapp",
   },
   {
     image: gatsbystarter,
