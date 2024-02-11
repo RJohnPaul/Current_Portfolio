@@ -4,6 +4,7 @@ import xtractai from "@/assets/images/projects/xtractai.png";
 import portfolio from "@/assets/images/projects/portfolio.png";
 import qwick from "@/assets/images/projects/qwick.png";
 import events from "@/assets/images/projects/events.png";
+import helloangular from "@/assets/images/projects/helloangular.png";
 import weatherwave from "@/assets/images/projects/weatherwave.png";
 import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
 import buildme from "@/assets/images/projects/Buildme.png";
@@ -18,6 +19,7 @@ import threejs from "@/assets/images/skills/threejs.svg";
 import netlify from "@/assets/images/skills/netlify.svg";
 import metamask from "@/assets/images/skills/metamask.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
+import angular from "@/assets/images/skills/angular.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
 import sass from "@/assets/images/skills/sass.svg";
@@ -318,6 +320,49 @@ const projects: Projects = [
     code: "https://github.com/RJohnPaul/Todolist_app",
     visit: "http://tinyurl.com/todolistapplanding",
     slug: "todolistapp",
+  },
+  {
+    image: helloangular,
+    title: "Hello-Angular",
+    smallDescription: "A starter angular website build for beginners with simple styling using tailwindcss etc",
+    description: [
+      {
+        content:
+          "A starter angular website which contains just a few components and also uses gatsby for routing and tailwind css for styling.",
+      },
+      {
+        content:
+          "Angular is a popular framework for building web applications, developed and maintained by Google. It's widely used in web development for various reasons , Angular follows a component-based architecture where the UI is composed of reusable and encapsulated components",
+      },
+    
+    ],
+    techs: [
+      {
+        image: angular,
+        name: "Angular",  
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: css,
+        name: "CSS",
+      },
+      {
+        image: html,
+        name: "HTML",
+      },
+    ],
+   
+    code:"https://github.com/RJohnPaul/Hello-Angular",
+    visit: "https://hello-angular-drab.vercel.app/",
+    slug: "hello-angular",
   },
   {
     image: gatsbystarter,
