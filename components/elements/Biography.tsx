@@ -32,7 +32,7 @@ const Biography = () => {
           href="https://www.srmist.edu.in/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary/80 underline decoration-primary/50 underline-offset-4 duration-300 hover:decoration-primary/80"
+          className="text-primary/80 underline decoration-primary/50 underline-offset-4  duration-300 hover:decoration-green-500 hover:text-green-500"
         >
          SRM Institute of Science and Technology
         </a>
@@ -46,13 +46,24 @@ const Biography = () => {
         <span className="text-primary/80">design systems</span>, crafting{" "}
         <span className="text-primary/80">innovative interfaces</span>, and the ability
         to turn code into truly exceptional user experiences.
+        <span className="text-primary/80">&nbsp;Also</span>. i
+        am currently a Technical&nbsp;Intern at{" "}
+        <a
+          href="https://cherrynetwork.in/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary/80 underline decoration-primary/50 underline-offset-4  duration-300 hover:decoration-green-500 hover:text-green-500"
+        >
+         Cherry+&nbsp;Network
+        </a>
+        <span className="text-primary/80">&nbsp;For over 8+ months helping to build custom websites with various frameworks and custom styling</span>. 
       </Typography>
       <Typography className="leading-relaxed">
         <span className="text-primary/80">
           I strive to stay constantly updated
         </span>{" "}
         with the latest market trends, demonstrating a commitment to making a
-        difference in every project I am involved in.I currently have 50+ reposistories on my github account and 20+ projects from python to react to C etc on my portfolio.
+        difference in every project I am involved in&nbsp;.&nbsp;I currently have 80+ reposistories on my github account and 50+ projects from python to react to C etc on my portfolio.
       </Typography>
 
     </div>

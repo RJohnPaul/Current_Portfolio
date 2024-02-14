@@ -11,6 +11,7 @@ import buildme from "@/assets/images/projects/Buildme.png";
 import gatsbyportfolio from "@/assets/images/projects/gatsbyportfolio.png";
 import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import basedetect from "@/assets/images/projects/basedetect.png";
+import helloastro from "@/assets/images/projects/helloastro.png";
 import srmcrypt from "@/assets/images/projects/srmcrypt.png";
 import todolist from "@/assets/images/projects/todolist.png";
 import tulip from "@/assets/images/projects/tulip.png";
@@ -19,6 +20,7 @@ import threejs from "@/assets/images/skills/threejs.svg";
 import netlify from "@/assets/images/skills/netlify.svg";
 import metamask from "@/assets/images/skills/metamask.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
+import astro from "@/assets/images/skills/astro.svg";
 import angular from "@/assets/images/skills/angular.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
@@ -328,7 +330,7 @@ const projects: Projects = [
     description: [
       {
         content:
-          "A starter angular website which contains just a few components and also uses gatsby for routing and tailwind css for styling.",
+          "A starter angular website which contains just a few components and also uses tailwind css for styling.",
       },
       {
         content:
@@ -363,6 +365,49 @@ const projects: Projects = [
     code:"https://github.com/RJohnPaul/Hello-Angular",
     visit: "https://hello-angular-drab.vercel.app/",
     slug: "hello-angular",
+  },
+  {
+    image: helloastro,
+    title: "Hello-Astro",
+    smallDescription: "A starter astro website build for beginners with simple styling using tailwindcss etc",
+    description: [
+      {
+        content:
+          "A starter astro website which contains just a few components and also uses tailwind css for styling.",
+      },
+      {
+        content:
+          "Astro is a popular framework for building web applications . It's widely used in web development for various reasons , Astro combines the best of both worlds: the simplicity of static site generation, with the performance and flexibility of server-rendered frameworks.",
+      },
+    
+    ],
+    techs: [
+      {
+        image: astro,
+        name: "Astro",  
+      },
+      {
+        image: typescript,
+        name: "TypeScript",
+      },
+      
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: css,
+        name: "CSS",
+      },
+      {
+        image: html,
+        name: "HTML",
+      },
+    ],
+   
+    code:"https://github.com/RJohnPaul/astro-starter",
+    visit: "https://astro-starter-drab.vercel.app/",
+    slug: "hello-astro",
   },
   {
     image: gatsbystarter,
