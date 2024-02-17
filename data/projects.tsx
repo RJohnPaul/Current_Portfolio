@@ -1,9 +1,8 @@
 import { StaticImageData } from "next/image";
-
 import xtractai from "@/assets/images/projects/xtractai.png";
 import portfolio from "@/assets/images/projects/portfolio.png";
-import qwick from "@/assets/images/projects/qwick.png";
 import events from "@/assets/images/projects/events.png";
+import qwick from "@/assets/images/projects/qwick.png";
 import helloangular from "@/assets/images/projects/helloangular.png";
 import weatherwave from "@/assets/images/projects/weatherwave.png";
 import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
@@ -13,18 +12,21 @@ import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import basedetect from "@/assets/images/projects/basedetect.png";
 import helloastro from "@/assets/images/projects/helloastro.png";
 import srmcrypt from "@/assets/images/projects/srmcrypt.png";
+import hellosvelte from "@/assets/images/projects/hellosvelte.png";
 import todolist from "@/assets/images/projects/todolist.png";
 import tulip from "@/assets/images/projects/tulip.png";
 
 import threejs from "@/assets/images/skills/threejs.svg";
 import netlify from "@/assets/images/skills/netlify.svg";
 import metamask from "@/assets/images/skills/metamask.svg";
+import turborepo from "@/assets/images/skills/turborepo.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
 import astro from "@/assets/images/skills/astro.svg";
 import angular from "@/assets/images/skills/angular.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
 import sass from "@/assets/images/skills/sass.svg";
+import svelte from "@/assets/images/skills/svelte.svg";
 import expo from "@/assets/images/skills/expo.svg";
 import babel from "@/assets/images/skills/babel.svg";
 import css from "@/assets/images/skills/css.svg";
@@ -408,6 +410,48 @@ const projects: Projects = [
     code:"https://github.com/RJohnPaul/astro-starter",
     visit: "https://astro-starter-drab.vercel.app/",
     slug: "hello-astro",
+  },
+  {
+    image: hellosvelte,
+    title: "Hello-Svelte",
+    smallDescription: "A starter svelte website build for beginners with simple styled buttons using vanilla css etc",
+    description: [
+      {
+        content:
+          "A starter svelte website which contains just a few components and also uses vanilla css for styling.",
+      },
+      {
+        content:
+          "Svelte is a popular framework for building web applications . It's widely used in web development for various reasons , Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.",
+      },
+    
+    ],
+    techs: [
+      {
+        image: svelte,
+        name: "Svelte",  
+      },
+      {
+        image: typescript,
+        name: "TypeScript",
+      },
+      {
+        image: turborepo,
+        name: "TurboRepo",
+      },
+      {
+        image: css,
+        name: "CSS",
+      },
+      {
+        image: html,
+        name: "HTML",
+      },
+    ],
+   
+    code:"https://github.com/RJohnPaul/hello-svelte",
+    visit: "https://astro-starter-drab.vercel.app/",
+    slug: "hello-svelte",
   },
   {
     image: gatsbystarter,
