@@ -1,5 +1,6 @@
 import { Metadata } from "next";
-
+import { twMerge } from "tailwind-merge";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 import { AnimateEnter } from "@/components/elements/AnimateEnter";
 import { Title } from "@/components/elements/Title";
 import { Biography } from "@/components/elements/Biography";
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 
 const AboutPage = () => {
   return (
+    
     <AnimateEnter className="max-w-[854px] space-y-12 overflow-hidden max-lg:py-8 lg:w-4/5 lg:pt-8">
       <section>
         <Title variant="title">About me</Title>
