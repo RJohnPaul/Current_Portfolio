@@ -1,6 +1,4 @@
 import { Metadata } from "next";
-import { twMerge } from "tailwind-merge";
-import { TracingBeam } from "@/components/ui/tracing-beam";
 import { AnimateEnter } from "@/components/elements/AnimateEnter";
 import { Title } from "@/components/elements/Title";
 import { Biography } from "@/components/elements/Biography";
