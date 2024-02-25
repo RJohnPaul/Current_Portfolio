@@ -58,7 +58,7 @@ Welcome to my cutting-edge portfolio website! Built with ❤️ using TypeScript
    ```
 
 5. **Open Your Browser:**
-   Visit [http://localhost:3000](http://localhost:3000) to see your portfolio in action!
+   Visit [http://localhost:3000](http://localhost:3000) to see your portfolio in action! on the live server
 
 ## 📝 License
 
