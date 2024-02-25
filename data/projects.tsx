@@ -11,6 +11,7 @@ import gatsbyportfolio from "@/assets/images/projects/gatsbyportfolio.png";
 import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import basedetect from "@/assets/images/projects/basedetect.png";
 import helloastro from "@/assets/images/projects/helloastro.png";
+import companybootstrap from "@/assets/images/projects/companybootstrap.png";
 import srmcrypt from "@/assets/images/projects/srmcrypt.png";
 import hellosvelte from "@/assets/images/projects/hellosvelte.png";
 import todolist from "@/assets/images/projects/todolist.png";
@@ -499,6 +500,44 @@ const projects: Projects = [
     code:"https://github.com/RJohnPaul/Gatsby-Blog-Starter",
     visit: "https://gatsby-blog-spanish.vercel.app/",
     slug: "gatsby-blog",
+  },
+  {
+    image: companybootstrap,
+    title: "Company-Bootstrap",
+    smallDescription: "A Starter Blog website build for beginners with advanced features like contentful,tailwindcss etc",
+    description: [
+      {
+        content:
+          "A complex Blog website which contains several styled components and also uses gatsby for routing and tailwind css for styling.",
+      },
+      {
+        content:
+          "Contentful is used for storing data in the backend. and framer motion is used for animations. and also uses gatsby-image for image optimization. and also uses gatsby-plugin-sass for styling. and also uses gatsby-plugin-google-fonts for fonts.",
+      },
+    
+    ],
+    techs: [
+      {
+        image: bootstrap,
+        name: "Bootstrap",
+      },
+      {
+        image: css,
+        name: "CSS",
+      },
+      {
+        image: sass,
+        name: "SCSS",
+      },
+      {
+        image: html,
+        name: "HTML",
+      },
+    ],
+   
+    code:"https://github.com/RJohnPaul/Company_Bootstrap",
+    visit: "https://company-bootstrap.vercel.app/",
+    slug: "company-bootstrap",
   },
   {
     image: gatsbyportfolio,
