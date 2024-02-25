@@ -450,7 +450,7 @@ const projects: Projects = [
     ],
    
     code:"https://github.com/RJohnPaul/hello-svelte",
-    visit: "https://astro-starter-drab.vercel.app/",
+    visit: "https://hello-svelte-web.vercel.app/",
     slug: "hello-svelte",
   },
   {
