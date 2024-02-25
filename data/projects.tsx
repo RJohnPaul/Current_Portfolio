@@ -686,7 +686,7 @@ const projects: Projects = [
       },
     ],
     code: "https://github.com/RJohnPaul/Bootstrap_Startup_Template",
-    visit: "https://event-page-starter.vercel.app/",
+    visit: "https://bootstrap-startup-template.vercel.app/",
     slug: "bootstrap-starter",
   },
   {
