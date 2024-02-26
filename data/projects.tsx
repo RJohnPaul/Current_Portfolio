@@ -504,15 +504,15 @@ const projects: Projects = [
   {
     image: companybootstrap,
     title: "Company-Bootstrap",
-    smallDescription: "A Starter Blog website build for beginners with advanced features like contentful,tailwindcss etc",
+    smallDescription: "A Starter Bootstrap website build for beginners",
     description: [
       {
         content:
-          "A complex Blog website which contains several styled components and also uses gatsby for routing and tailwind css for styling.",
+          "A simple company website which contains several styled components and also uses bootstrap for styling.",
       },
       {
         content:
-          "Contentful is used for storing data in the backend. and framer motion is used for animations. and also uses gatsby-image for image optimization. and also uses gatsby-plugin-sass for styling. and also uses gatsby-plugin-google-fonts for fonts.",
+          "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
       },
     
     ],
