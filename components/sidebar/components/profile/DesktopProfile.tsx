@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import { cn } from "@/lib/utils";
 
-import author from "@/assets/images/author2.png";
+import author from "@/assets/images/author.png";
 
 import { Title } from "@/components/elements/Title";
 import { Typography } from "@/components/elements/Typography";
