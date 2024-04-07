@@ -33,7 +33,7 @@ const EmailTemplate = ({ name, message, email }: EmailTemplateProps) => {
                 src="https://i.imgur.com/rq2NJxh.png"
                 width="60"
                 height="60"
-                alt="Logo Gustavo Rodrigues"
+                alt="Logo John Paul"
                 className="mx-auto my-0 rounded-md"
               />
             </Section>

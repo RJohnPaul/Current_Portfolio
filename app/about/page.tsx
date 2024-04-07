@@ -7,7 +7,7 @@ import { Stack } from "@/components/elements/Stack";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Get to know a little about me and my passions.",
+  description: "Get to know a little about me and my passion.",
 };
 
 const AboutPage = () => {

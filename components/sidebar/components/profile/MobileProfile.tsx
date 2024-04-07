@@ -11,7 +11,7 @@ const MobileProfile = () => {
     <>
       <Link href="/">
         <div className="h-10 w-10 overflow-hidden rounded-full">
-          <Image src={author} alt="Gustavo" />
+          <Image src={author} alt="JohnPaul" />
         </div>
       </Link>
       <div className="flex items-center gap-1.5">

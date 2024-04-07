@@ -40,7 +40,7 @@ const Biography = () => {
       </Typography>
       <Typography className="leading-relaxed">
         Over more than{" "}
-        <span className="text-primary/80">3+ years of study</span> in the field of
+        <span className="text-primary/80">4+ years of study</span> in the field of
         web development,design and 2 years in app development I have gained significant experience in creating digital
         solutions. My current focus is on exploring{" "}
         <span className="text-primary/80">design systems</span>, crafting{" "}
@@ -63,7 +63,7 @@ const Biography = () => {
           I strive to stay constantly updated
         </span>{" "}
         with the latest market trends, demonstrating a commitment to making a
-        difference in every project I am involved in&nbsp;.&nbsp;I currently have 80+ reposistories on my github account and 50+ projects from python to react to C etc on my portfolio.
+        difference in every project I am involved in&nbsp;.&nbsp;I currently have 90+ reposistories on my github account and 50+ projects from python to react to C etc on my portfolio.
       </Typography>
 
     </div>
