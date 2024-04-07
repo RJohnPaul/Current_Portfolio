@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     locale: "pt-BR",
     title: "John Paul – Portfolio",
     type: "website",
-    url: "https://htps://john-porfolio.vercel.app",
+    url: "https://john-porfolio.vercel.app",
   },
   publisher: "John Paul",
   twitter: {
