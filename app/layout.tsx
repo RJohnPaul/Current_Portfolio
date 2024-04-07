@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     description:
-      "Creating digital experiences that perfectly combine elegant aesthetics with exceptional functionality. Minhao is transforming code into incredible experiences, ensuring that each project tells a unique and immersive story on the web.",
+      "Creating digital experiences that perfectly combine elegant aesthetics with exceptional functionality. Minhao is transforming code , ensuring that each project tells a unique and immersive story on the web.",
     images: [
       {
         width: 1920,
