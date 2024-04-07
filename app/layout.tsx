@@ -61,7 +61,7 @@ export const metadata: Metadata = {
       {
         width: 1920,
         height: 1080,
-        url: "https://imgur.com/H5KbcRH",
+        url: "https://i.imgur.com/H5KbcRH.png",
         alt: "heh",
       },
     ],
