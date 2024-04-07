@@ -7,6 +7,7 @@ import helloangular from "@/assets/images/projects/helloangular.png";
 import weatherwave from "@/assets/images/projects/weatherwave.png";
 import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
 import buildme from "@/assets/images/projects/Buildme.png";
+import remarkit from "@/assets/images/projects/remarkit.png";
 import gatsbyportfolio from "@/assets/images/projects/gatsbyportfolio.png";
 import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import basedetect from "@/assets/images/projects/basedetect.png";
@@ -24,6 +25,7 @@ import turborepo from "@/assets/images/skills/turborepo.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
 import astro from "@/assets/images/skills/astro.svg";
 import angular from "@/assets/images/skills/angular.svg";
+import remark from "@/assets/images/skills/remark.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
 import sass from "@/assets/images/skills/sass.svg";
@@ -325,6 +327,47 @@ const projects: Projects = [
     code: "https://github.com/RJohnPaul/Todolist_app",
     visit: "http://tinyurl.com/todolistapplanding",
     slug: "todolistapp",
+  },
+  {
+    image: remarkit,
+    title: "Markie",
+    smallDescription:
+      "A Quick to use - Friendly Text to Markdown Preview Web App powered by Nextjs , TailwindCSS and more !.",
+    description: [
+      {
+        content:
+          "Markie is a versatile Markdown editor built with Next.js. It provides a user-friendly interface for creating and editing Markdown documents, with features like syntax highlighting, live preview, and more.",
+      },
+      {
+        content:
+          "In my project, I utilized NextJS along with remarkjs's markdown, for building a powerful web app along with TailwindCSS,for proper markdown conversions as well as a beautiful UI , I have also integrated react hot toast to further decrease any confusions.",
+      },
+    ],
+    techs: [
+      {
+        image: react,
+        name: "React",
+      },
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: tailwind,
+        name: "TailwindCSS",
+      },
+      {
+        image: javascript,
+        name: "Javascript",
+      },
+      {
+        image: remark,
+        name: "Remark.js",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/Markie",
+    visit: "https://markie-gdsc.vercel.app/",
+    slug: "markie",
   },
   {
     image: helloangular,
