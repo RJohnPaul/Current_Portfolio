@@ -1,4 +1,4 @@
-# My Current Portfolio  🌟
+# My Currently Used Portfolio  🌟
 
 <div align="center">
   <br>
@@ -22,7 +22,7 @@ Welcome to my cutting-edge portfolio website! Built with ❤️ using TypeScript
 
 - **Next.js Integration:** Benefit from the power of [Next.js](https://nextjs.org/) for optimized performance, server-side rendering, and an improved development experience.
 
-- **Resend API:** The contact form is powered by the [Resend API](https://resend.com/) for efficient and reliable email communication.
+- **Resend API:** The contact form is powered by the [Resend API](https://resend.com/) for efficient and reliable email communication and for futher collabs with other developers.
 
 ## 🛠️ Technologies Used
 
