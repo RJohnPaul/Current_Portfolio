@@ -16,7 +16,7 @@ const HomePage = () => {
       <section className="space-y-4">
         <Title variant="title">John Paul</Title>
         <Typography className="leading-relaxed">
-          I&apos;m <span className="text-primary/80">Talented Web Developer and Designer</span>,
+          I&apos;m <span className=" text-violet-400">Talented Web Developer and Designer</span>,
           i experiment with web development frameworks mostly using ReactJS,NextJS,NextUI and Design using TailwindCSS as well as VanillaCSS , I have 90+ Repos on My <a target="_blank" href="https://github.com/RJohnPaul" className="underline underline-offset-1 transition-all hover:text-green-500">Github.</a>&nbsp;I have also designed 50+ Posters using Figma that I have created for my Projects.{" "}
           <span className="text-primary/80">
             Changing the world one code at a time.
@@ -44,7 +44,7 @@ const HomePage = () => {
         </Typography>
         <Link href="/contact" className="w-fit">
           <Button>
-            Contact-me
+            Let&apos;s Talk!
             <Send size={18} />
           </Button>
         </Link>
