@@ -6,7 +6,7 @@
   </br>
 </div>
 </br>
-Welcome to my cutting-edge portfolio website! Built with ❤️ using TypeScript,Next.js, Tailwind CSS, and the Shadcn component library, this portfolio showcases my diverse skill set and commitment to delivering polished and modern designs. 🚀
+Welcome to my cutting-edge portfolio website! Built with ❤️ and code using TypeScript,Next.js, Tailwind CSS, and the Shadcn component library, this portfolio showcases my diverse skill set and commitment to delivering polished and modern designs. 🚀
 
 ## ✨ Key Features
 
