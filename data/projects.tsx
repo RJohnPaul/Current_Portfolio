@@ -14,6 +14,7 @@ import basedetect from "@/assets/images/projects/basedetect.png";
 import helloastro from "@/assets/images/projects/helloastro.png";
 import companybootstrap from "@/assets/images/projects/companybootstrap.png";
 import srmcrypt from "@/assets/images/projects/srmcrypt.png";
+import dashboard from "@/assets/images/projects/dashboard.png";
 import hellosvelte from "@/assets/images/projects/hellosvelte.png";
 import todolist from "@/assets/images/projects/todolist.png";
 import tulip from "@/assets/images/projects/tulip.png";
@@ -29,6 +30,7 @@ import remark from "@/assets/images/skills/remark.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
 import sass from "@/assets/images/skills/sass.svg";
+import supabase from "@/assets/images/skills/supabase.svg";
 import svelte from "@/assets/images/skills/svelte.svg";
 import expo from "@/assets/images/skills/expo.svg";
 import babel from "@/assets/images/skills/babel.svg";
@@ -50,6 +52,7 @@ import tailwind from "@/assets/images/skills/tailwindcss.svg";
 import framer from "@/assets/images/skills/framer.svg";
 import firebase from "@/assets/images/skills/firebase.svg";
 import kotlin from "@/assets/images/skills/kotlin.svg";
+import materialui from "@/assets/images/skills/materialui.svg";
 import next from "next";
 
 type Projects = Array<{
@@ -212,6 +215,48 @@ const projects: Projects = [
    
     visit: "https://tulips.technology",
     slug: "tendertulip",
+  },
+  {
+    image: dashboard,
+    title: "Clinic-Dashboard",
+    smallDescription: "A Dashboard build for a company with advanced features like database,authentication,etc",
+    description: [
+      {
+        content:
+          "A complex website made for a company which contains several styled components and also uses vitejs for routing and mui for styling. and also uses supabase for authentication.", 
+      },
+      {
+        content:
+          "Supabase is used for double authentication and also for storing data in 3 tables in the backend.This project is a dashboard for a company which contains several styled components and also uses react kendopdf for printing mui designed recipts. and also uses vitejs for routing and mui for styling. and also uses supabase for authentication",
+      },
+    
+    ],
+    techs: [
+      {
+        image: vite,
+        name: "Vite.js",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: materialui,
+        name: "MUI",
+      },
+      {
+        image: supabase,
+        name: "Supabase",
+      },
+    ],
+   
+    visit: "https://vidyacliniccentre.vercel.app/",
+    slug: "RehabClinicDashboard",
   },
   {
     image: weatherwave,
