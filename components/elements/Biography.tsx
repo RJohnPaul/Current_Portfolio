@@ -8,7 +8,6 @@ const Biography = () => {
     const currentYear = now.getFullYear();
 
     let age = currentYear - yearOfBirth;
-
     if (
       now.getMonth() < dateOfBirth.getMonth() ||
       (now.getMonth() === dateOfBirth.getMonth() &&
@@ -23,49 +22,36 @@ const Biography = () => {
   return (
     <div className="space-y-3">
       <Typography className="leading-relaxed">
-        Hi I&apos;m John Paul, i am a {" "}
-        <span className="text-primary/80">web developer. I am currently</span>{" "}
-        <span className="text-primary/80">{getAge()} years old</span>&nbsp;.&nbsp;i was born in
-        <span className="text-primary/80">&nbsp;India</span>. i
-        am currently pursuing my Bachelor&apos;s degree in Computer Engineering at{" "}
+        Hi, I&apos;m John Paul, a {getAge()}-year-old web developer born in{" "}
+        <span className="text-violet-500">India</span>. I am currently pursuing my Bachelor&apos;s degree in Computer Engineering at{" "}
         <a
           href="https://www.srmist.edu.in/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary/80 underline decoration-primary/50 underline-offset-4  duration-300 hover:decoration-green-500 hover:text-green-500"
+          className="text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300"
         >
-         SRM Institute of Science and Technology
+          SRM Institute of Science and Technology
         </a>
-        .
-      </Typography>
-      <Typography className="leading-relaxed">
-        Over more than{" "}
-        <span className="text-primary/80">4+ years of study</span> in the field of
-        web development,design and 2 years in app development I have gained significant experience in creating digital
-        solutions. My current focus is on exploring{" "}
-        <span className="text-primary/80">design systems</span>, crafting{" "}
-        <span className="text-primary/80">innovative interfaces</span>, and the ability
-        to turn code into truly exceptional user experiences.
-        <span className="text-primary/80">&nbsp;Also</span>. i
-        am currently a Technical&nbsp;Intern at{" "}
+        . With over{" "}
+        <span className="text-violet-500">4+ years of study</span> in web development and design, and 2 years in app development, I have gained significant experience in creating digital solutions. My current focus is on exploring{" "}
+        <span className="text-violet-500">design systems</span>, crafting{" "}
+        <span className="text-violet-500">innovative interfaces</span>, and turning code into exceptional user experiences. I am presently a Technical Intern at{" "}
         <a
           href="https://cherrynetwork.in/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary/80 underline decoration-primary/50 underline-offset-4  duration-300 hover:decoration-green-500 hover:text-green-500"
+          className="text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300"
         >
-         Cherry+&nbsp;Network
+          Cherry+ Network
         </a>
-        <span className="text-primary/80">&nbsp;For over 8+ months helping to build custom websites with various frameworks and custom styling</span>. 
+        , where I have been helping to build custom websites with various frameworks and custom styling for over a year. Additionally, I am interning at{" "}
+        <a href="https://www.liftoffclub.in/"
+          target="_blank"
+          rel="noopener noreferrer" className="cursor-pointer text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300">Liftoff</a> and{" "}
+        <a href="https://www.srmist.edu.in/alumni-affairs/"
+          target="_blank"
+          rel="noopener noreferrer" className="cursor-pointer text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300">SRM Alumni Affairs</a>. I strive to stay constantly updated with the latest market trends, demonstrating a commitment to making a difference in every project I am involved in. With 90+ repositories on my GitHub account and 50+ projects ranging from Python to React to C++, I showcase my diverse skills and expertise on my portfolio.
       </Typography>
-      <Typography className="leading-relaxed">
-        <span className="text-primary/80">
-          I strive to stay constantly updated
-        </span>{" "}
-        with the latest market trends, demonstrating a commitment to making a
-        difference in every project I am involved in&nbsp;.&nbsp;I currently have 90+ reposistories on my github account and 50+ projects from python to react to C etc on my portfolio.
-      </Typography>
-
     </div>
   );
 };
