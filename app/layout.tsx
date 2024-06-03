@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/react"
 
 import "@/styles/globals.css";
 
@@ -101,6 +102,7 @@ const RootLayout = (props: RootLayoutProps) => {
             {children}
           </Provider>
         </AnimateEnter>
+        <Analytics />
         <Toast />
       </body>
     </html>

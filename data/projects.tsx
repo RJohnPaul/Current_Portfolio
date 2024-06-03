@@ -8,6 +8,7 @@ import weatherwave from "@/assets/images/projects/weatherwave.png";
 import bootstrapstart from "@/assets/images/projects/bootstrapstart.png";
 import buildme from "@/assets/images/projects/Buildme.png";
 import remarkit from "@/assets/images/projects/remarkit.png";
+import qrgenpic from "@/assets/images/projects/qrgenpic.png";
 import gatsbyportfolio from "@/assets/images/projects/gatsbyportfolio.png";
 import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import basedetect from "@/assets/images/projects/basedetect.png";
@@ -257,6 +258,56 @@ const projects: Projects = [
    
     visit: "https://vidyacliniccentre.vercel.app/",
     slug: "RehabClinicDashboard",
+  },
+  {
+    image: qrgenpic,
+    title: "QRGen",
+    smallDescription: "A v1-Iteration of a Next.js Powered QR-Generator along with Shadcn and RapidAPI",
+    description: [
+      {
+        content:
+          "QRGen is a web application that allows users to generate custom QR codes for various purposes such as websites, products, contacts, and events.",
+      },
+      {
+        content:
+          "It provides an easy-to-use interface for creating QR codes with customizable styles and settings. Users can generate QR codes for different types of data, including URLs, text, phone numbers, and email addresses. The app also supports downloading QR codes as PNG",
+      },
+    
+    ],
+    techs: [
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: react,
+        name: "React",
+      },
+      {
+        image: framer,
+        name: "Framer Motion",
+      },
+      {
+        image: shadcn,
+        name: "Shadcn",
+      },
+      {
+        image: rapidapi,
+        name: "RapidAPI",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/QRGen",
+    visit: "https://qrgen-pi.vercel.app/",
+    slug: "qrgen",
   },
   {
     image: weatherwave,
