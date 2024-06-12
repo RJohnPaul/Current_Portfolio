@@ -184,7 +184,7 @@ const projects: Projects = [
         content:
           "Firebase is used for authentication and also for storing data in the backend. and framer motion is used for animations.",
       },
-    
+
     ],
     techs: [
       {
@@ -195,7 +195,7 @@ const projects: Projects = [
         image: javascript,
         name: "JavaScript",
       },
-      
+
       {
         image: tailwind,
         name: "Tailwind CSS",
@@ -213,7 +213,7 @@ const projects: Projects = [
         name: "Firebase",
       },
     ],
-   
+
     visit: "https://tulips.technology",
     slug: "tendertulip",
   },
@@ -224,13 +224,13 @@ const projects: Projects = [
     description: [
       {
         content:
-          "A complex website made for a company which contains several styled components and also uses vitejs for routing and mui for styling. and also uses supabase for authentication.", 
+          "A complex website made for a company which contains several styled components and also uses vitejs for routing and mui for styling. and also uses supabase for authentication.",
       },
       {
         content:
           "Supabase is used for double authentication and also for storing data in 3 tables in the backend.This project is a dashboard for a company which contains several styled components and also uses react kendopdf for printing mui designed recipts. and also uses vitejs for routing and mui for styling. and also uses supabase for authentication",
       },
-    
+
     ],
     techs: [
       {
@@ -241,7 +241,7 @@ const projects: Projects = [
         image: javascript,
         name: "JavaScript",
       },
-      
+
       {
         image: tailwind,
         name: "Tailwind CSS",
@@ -255,7 +255,7 @@ const projects: Projects = [
         name: "Supabase",
       },
     ],
-   
+
     visit: "https://vidyacliniccentre.vercel.app/",
     slug: "RehabClinicDashboard",
   },
@@ -272,7 +272,7 @@ const projects: Projects = [
         content:
           "It provides an easy-to-use interface for creating QR codes with customizable styles and settings. Users can generate QR codes for different types of data, including URLs, text, phone numbers, and email addresses. The app also supports downloading QR codes as PNG",
       },
-    
+
     ],
     techs: [
       {
@@ -283,7 +283,7 @@ const projects: Projects = [
         image: javascript,
         name: "JavaScript",
       },
-      
+
       {
         image: tailwind,
         name: "Tailwind CSS",
@@ -308,6 +308,47 @@ const projects: Projects = [
     code: "https://github.com/RJohnPaul/QRGen",
     visit: "https://qrgen-pi.vercel.app/",
     slug: "qrgen",
+  },
+  {
+    image: remarkit,
+    title: "Markie",
+    smallDescription:
+      "A Quick to use - Friendly Text to Markdown Preview Web App powered by Nextjs , TailwindCSS and more !.",
+    description: [
+      {
+        content:
+          "Markie is a versatile Markdown editor built with Next.js. It provides a user-friendly interface for creating and editing Markdown documents, with features like syntax highlighting, live preview, and more.",
+      },
+      {
+        content:
+          "In my project, I utilized NextJS along with remarkjs's markdown, for building a powerful web app along with TailwindCSS,for proper markdown conversions as well as a beautiful UI , I have also integrated react hot toast to further decrease any confusions.",
+      },
+    ],
+    techs: [
+      {
+        image: react,
+        name: "React",
+      },
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: tailwind,
+        name: "TailwindCSS",
+      },
+      {
+        image: javascript,
+        name: "Javascript",
+      },
+      {
+        image: remark,
+        name: "Remark.js",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/Markie",
+    visit: "https://markie-gdsc.vercel.app/",
+    slug: "markie",
   },
   {
     image: weatherwave,
@@ -425,47 +466,6 @@ const projects: Projects = [
     slug: "todolistapp",
   },
   {
-    image: remarkit,
-    title: "Markie",
-    smallDescription:
-      "A Quick to use - Friendly Text to Markdown Preview Web App powered by Nextjs , TailwindCSS and more !.",
-    description: [
-      {
-        content:
-          "Markie is a versatile Markdown editor built with Next.js. It provides a user-friendly interface for creating and editing Markdown documents, with features like syntax highlighting, live preview, and more.",
-      },
-      {
-        content:
-          "In my project, I utilized NextJS along with remarkjs's markdown, for building a powerful web app along with TailwindCSS,for proper markdown conversions as well as a beautiful UI , I have also integrated react hot toast to further decrease any confusions.",
-      },
-    ],
-    techs: [
-      {
-        image: react,
-        name: "React",
-      },
-      {
-        image: nextjs,
-        name: "Next.js",
-      },
-      {
-        image: tailwind,
-        name: "TailwindCSS",
-      },
-      {
-        image: javascript,
-        name: "Javascript",
-      },
-      {
-        image: remark,
-        name: "Remark.js",
-      },
-    ],
-    code: "https://github.com/RJohnPaul/Markie",
-    visit: "https://markie-gdsc.vercel.app/",
-    slug: "markie",
-  },
-  {
     image: helloangular,
     title: "Hello-Angular",
     smallDescription: "A starter angular website build for beginners with simple styling using tailwindcss etc",
@@ -478,18 +478,18 @@ const projects: Projects = [
         content:
           "Angular is a popular framework for building web applications, developed and maintained by Google. It's widely used in web development for various reasons , Angular follows a component-based architecture where the UI is composed of reusable and encapsulated components",
       },
-    
+
     ],
     techs: [
       {
         image: angular,
-        name: "Angular",  
+        name: "Angular",
       },
       {
         image: javascript,
         name: "JavaScript",
       },
-      
+
       {
         image: tailwind,
         name: "Tailwind CSS",
@@ -503,8 +503,8 @@ const projects: Projects = [
         name: "HTML",
       },
     ],
-   
-    code:"https://github.com/RJohnPaul/Hello-Angular",
+
+    code: "https://github.com/RJohnPaul/Hello-Angular",
     visit: "https://hello-angular-drab.vercel.app/",
     slug: "hello-angular",
   },
@@ -521,18 +521,18 @@ const projects: Projects = [
         content:
           "Astro is a popular framework for building web applications . It's widely used in web development for various reasons , Astro combines the best of both worlds: the simplicity of static site generation, with the performance and flexibility of server-rendered frameworks.",
       },
-    
+
     ],
     techs: [
       {
         image: astro,
-        name: "Astro",  
+        name: "Astro",
       },
       {
         image: typescript,
         name: "TypeScript",
       },
-      
+
       {
         image: tailwind,
         name: "Tailwind CSS",
@@ -546,8 +546,8 @@ const projects: Projects = [
         name: "HTML",
       },
     ],
-   
-    code:"https://github.com/RJohnPaul/astro-starter",
+
+    code: "https://github.com/RJohnPaul/astro-starter",
     visit: "https://astro-starter-drab.vercel.app/",
     slug: "hello-astro",
   },
@@ -564,12 +564,12 @@ const projects: Projects = [
         content:
           "Svelte is a popular framework for building web applications . It's widely used in web development for various reasons , Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.",
       },
-    
+
     ],
     techs: [
       {
         image: svelte,
-        name: "Svelte",  
+        name: "Svelte",
       },
       {
         image: typescript,
@@ -588,8 +588,8 @@ const projects: Projects = [
         name: "HTML",
       },
     ],
-   
-    code:"https://github.com/RJohnPaul/hello-svelte",
+
+    code: "https://github.com/RJohnPaul/hello-svelte",
     visit: "https://hello-svelte-web.vercel.app/",
     slug: "hello-svelte",
   },
@@ -606,7 +606,7 @@ const projects: Projects = [
         content:
           "Contentful is used for storing data in the backend. and framer motion is used for animations. and also uses gatsby-image for image optimization. and also uses gatsby-plugin-sass for styling. and also uses gatsby-plugin-google-fonts for fonts.",
       },
-    
+
     ],
     techs: [
       {
@@ -617,7 +617,7 @@ const projects: Projects = [
         image: javascript,
         name: "JavaScript",
       },
-      
+
       {
         image: tailwind,
         name: "Tailwind CSS",
@@ -635,8 +635,8 @@ const projects: Projects = [
         name: "Contentful",
       },
     ],
-   
-    code:"https://github.com/RJohnPaul/Gatsby-Blog-Starter",
+
+    code: "https://github.com/RJohnPaul/Gatsby-Blog-Starter",
     visit: "https://gatsby-blog-spanish.vercel.app/",
     slug: "gatsby-blog",
   },
@@ -653,7 +653,7 @@ const projects: Projects = [
         content:
           "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
       },
-    
+
     ],
     techs: [
       {
@@ -673,8 +673,8 @@ const projects: Projects = [
         name: "HTML",
       },
     ],
-   
-    code:"https://github.com/RJohnPaul/Company_Bootstrap",
+
+    code: "https://github.com/RJohnPaul/Company_Bootstrap",
     visit: "https://company-bootstrap.vercel.app/",
     slug: "company-bootstrap",
   },
@@ -691,7 +691,7 @@ const projects: Projects = [
         content:
           "This Portfolio contains several sections like intro,about,projects,contact,etc. and also uses gatsby-image for image optimization. and also uses gatsby-plugin-sass for styling. and also uses gatsby-plugin-google-fonts for fonts. and also uses gatsby-pl and all of the main changes can be done in markup language which is the most easiest way of doing so",
       },
-    
+
     ],
     techs: [
       {
@@ -718,10 +718,10 @@ const projects: Projects = [
         image: netlify,
         name: "Netflify",
       },
-      
+
     ],
-   
-    code:"https://github.com/RJohnPaul/Gatsby-Portfolio",
+
+    code: "https://github.com/RJohnPaul/Gatsby-Portfolio",
     visit: "https://chic-sawine-d9d12e.netlify.app/",
     slug: "gatsby-portfolio",
   },
@@ -775,7 +775,7 @@ const projects: Projects = [
         content:
           "These are purely react hook based components and are made using nextjs and tailwind css.",
       },
-    
+
     ],
     techs: [
       {
@@ -786,7 +786,7 @@ const projects: Projects = [
         image: javascript,
         name: "JavaScript",
       },
-      
+
       {
         image: tailwind,
         name: "Tailwind CSS",
@@ -833,7 +833,7 @@ const projects: Projects = [
     visit: "https://event-page-starter.vercel.app/",
     slug: "events",
   },
-  
+
   {
     image: bootstrapstart,
     title: "Bootstrap Starter",
@@ -900,7 +900,7 @@ const projects: Projects = [
     visit: "https://buildme.vercel.app/",
     slug: "buildme",
   },
-  
+
 ];
 
 export { projects };
