@@ -12,6 +12,7 @@ import qrgenpic from "@/assets/images/projects/qrgenpic.png";
 import gatsbyportfolio from "@/assets/images/projects/gatsbyportfolio.png";
 import gatsbystarter from "@/assets/images/projects/gatsbystarter.png";
 import basedetect from "@/assets/images/projects/basedetect.png";
+import anyai from "@/assets/images/projects/anyai.png";
 import helloastro from "@/assets/images/projects/helloastro.png";
 import companybootstrap from "@/assets/images/projects/companybootstrap.png";
 import srmcrypt from "@/assets/images/projects/srmcrypt.png";
@@ -27,10 +28,14 @@ import turborepo from "@/assets/images/skills/turborepo.svg";
 import rapidapi from "@/assets/images/skills/rapidapi.svg";
 import astro from "@/assets/images/skills/astro.svg";
 import angular from "@/assets/images/skills/angular.svg";
+import gemini from "@/assets/images/skills/gemini.svg";
 import remark from "@/assets/images/skills/remark.svg";
+import python from "@/assets/images/skills/python.svg";
+import vision from "@/assets/images/skills/vision.svg";
 import bootstrap from "@/assets/images/skills/bootstrap.svg";
 import html from "@/assets/images/skills/html.svg";
 import sass from "@/assets/images/skills/sass.svg";
+import streamlit from "@/assets/images/skills/streamlit.svg";
 import supabase from "@/assets/images/skills/supabase.svg";
 import svelte from "@/assets/images/skills/svelte.svg";
 import expo from "@/assets/images/skills/expo.svg";
@@ -170,6 +175,47 @@ const projects: Projects = [
     code: "https://github.com/RJohnPaul/Xtract-AI-MLH",
     visit: "https://xtractai.netlify.app",
     slug: "xtractai",
+  },
+  {
+    image: anyai,
+    title: "AnyAI",
+    smallDescription:
+      "AnyAI is a streamlit powered versatile AI tool that integrates Google Gemini and Google Vision API",
+    description: [
+      {
+        content:
+          "The AI Content Generator component of AnyAI uses the Google Gemini API to create content for a wide range of platforms. This includes LinkedIn posts, blog posts, Instagram posts, tweets, product descriptions, emails, ad copy, taglines, video scripts, podcast scripts, SEO content, README files, documentation, presentations, social media posts, and articles.",
+      },
+      {
+        content:
+          "The Image Classifier component of AnyAI utilizes Google Vision to classify images based on a given query. Users can upload images or provide image URLs for classification.",
+      },
+    ],
+    techs: [
+      {
+        image: streamlit,
+        name: "Streamlit",
+      },
+      {
+        image: python,
+        name: "Python",
+      },
+      {
+        image: css,
+        name: "CSS",
+      },
+      {
+        image: gemini,
+        name: "Google-Gemini-API",
+      },
+      {
+        image: vision,
+        name: "Google-Vision-API",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/AnyAI",
+    visit: "https://any-ai.streamlit.app/",
+    slug: "anyai",
   },
   {
     image: tulip,
@@ -466,6 +512,43 @@ const projects: Projects = [
     slug: "todolistapp",
   },
   {
+    image: basedetect,
+    title: "Base-Detect",
+    smallDescription:
+      "Basedetect is an Android app that uses a AI/ML Model to diffrentiate foods.",
+    description: [
+      {
+        content:
+          "This App is an AI/ML based app that uses a model to diffrentiate foods and also uses a camera to detect.Three Sample Images are given along with the app to test the model.",
+      },
+      {
+        content:
+          "In my project, I utilized NextJS, a JavaScript library for building user interfaces, along with Typescript and TailwindCSS, a utility-first CSS framework for easy styling of web pages and Kotlin for the app development which is a very powerful language for android development. and also uses tensorflow lite for the model. and also uses cameraX for the camera.",
+      },
+    ],
+    techs: [
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: kotlin,
+        name: "Kotlin",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/food-classifier-app",
+    visit: "https://base-detect.vercel.app/",
+    slug: "basedetect",
+  },
+  {
     image: helloangular,
     title: "Hello-Angular",
     smallDescription: "A starter angular website build for beginners with simple styling using tailwindcss etc",
@@ -724,43 +807,6 @@ const projects: Projects = [
     code: "https://github.com/RJohnPaul/Gatsby-Portfolio",
     visit: "https://chic-sawine-d9d12e.netlify.app/",
     slug: "gatsby-portfolio",
-  },
-  {
-    image: basedetect,
-    title: "Base-Detect",
-    smallDescription:
-      "Basedetect is an Android app that uses a AI/ML Model to diffrentiate foods.",
-    description: [
-      {
-        content:
-          "This App is an AI/ML based app that uses a model to diffrentiate foods and also uses a camera to detect.Three Sample Images are given along with the app to test the model.",
-      },
-      {
-        content:
-          "In my project, I utilized NextJS, a JavaScript library for building user interfaces, along with Typescript and TailwindCSS, a utility-first CSS framework for easy styling of web pages and Kotlin for the app development which is a very powerful language for android development. and also uses tensorflow lite for the model. and also uses cameraX for the camera.",
-      },
-    ],
-    techs: [
-      {
-        image: javascript,
-        name: "JavaScript",
-      },
-      {
-        image: nextjs,
-        name: "Next.js",
-      },
-      {
-        image: tailwind,
-        name: "Tailwind CSS",
-      },
-      {
-        image: kotlin,
-        name: "Kotlin",
-      },
-    ],
-    code: "https://github.com/RJohnPaul/food-classifier-app",
-    visit: "https://base-detect.vercel.app/",
-    slug: "basedetect",
   },
   {
     image: qwick,
