@@ -6,6 +6,16 @@
   </br>
 </div>
 </br>
+
+# Not Just Beautiful But Fast too.. 🌟
+
+<div align="center">
+  <br>
+      <img src="https://github.com/RJohnPaul/Current_Portfolio/blob/cd45650dd27e8661fe2e325095da3b89afbea457/image%2033.png" alt="Project Banner">
+  </br>
+</div>
+</br>
+
 Welcome to my cutting-edge portfolio website! Built with ❤️ and code using TypeScript,Next.js, Tailwind CSS, and the Shadcn component library, this portfolio showcases my diverse skill set and commitment to delivering polished and modern designs. 🚀
 
 ## ✨ Key Features
