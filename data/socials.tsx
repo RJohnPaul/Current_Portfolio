@@ -1,4 +1,4 @@
-import { Github, Linkedin, Instagram  } from "lucide-react";
+import { Github, Linkedin, Instagram} from "lucide-react";
 
 type Socials = Array<{
   href: string;
