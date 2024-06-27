@@ -80,6 +80,103 @@ type Projects = Array<{
 
 const projects: Projects = [
   {
+    image: younotes,
+    title: "YouNotes",
+    smallDescription: "Github's First Vercel Deployed Opensource Youtube to Notes Converter",
+    description: [
+      {
+        content:
+          "ouNotes is an AI-powered tool that automatically generates concise, well-structured notes from YouTube videos and text transcripts. Transform hours of content into digestible summaries with just a click!",
+      },
+      {
+        content:
+          "It's powered by Supabase auth and Google Gemni API for for the note by AI and also uses Next.js for the frontend and tailwind for the styling.",
+      },
+
+    ],
+    techs: [
+      {
+        image: nextjs,
+        name: "Next.js",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+
+      {
+        image: supabase,
+        name: "Supabase",
+      },
+
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: react,
+        name: "React",
+      },
+      {
+        image: framer,
+        name: "Framer Motion",
+      },
+      {
+        image: shadcn,
+        name: "Shadcn",
+      },
+      {
+        image: rapidapi,
+        name: "RapidAPI",
+      },
+    ],
+    code: "https://github.com/RJohnPaul/YouNotes",
+    visit: "https://you-notes-rouge.vercel.app/",
+    slug: "younotes",
+  },
+  {
+    image: dashboard,
+    title: "Clinic-Dashboard",
+    smallDescription: "A Dashboard build for a company with advanced features like database,authentication,etc",
+    description: [
+      {
+        content:
+          "A complex website made for a company which contains several styled components and also uses vitejs for routing and mui for styling. and also uses supabase for authentication.",
+      },
+      {
+        content:
+          "Supabase is used for double authentication and also for storing data in 3 tables in the backend.This project is a dashboard for a company which contains several styled components and also uses react kendopdf for printing mui designed recipts. and also uses vitejs for routing and mui for styling. and also uses supabase for authentication",
+      },
+
+    ],
+    techs: [
+      {
+        image: vite,
+        name: "Vite.js",
+      },
+      {
+        image: javascript,
+        name: "JavaScript",
+      },
+
+      {
+        image: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        image: materialui,
+        name: "MUI",
+      },
+      {
+        image: supabase,
+        name: "Supabase",
+      },
+    ],
+
+    visit: "https://vidyacliniccentre.vercel.app/",
+    slug: "RehabClinicDashboard",
+  },
+  {
     image: portfolio,
     title: "3D-Portfolio",
     smallDescription:
@@ -263,103 +360,6 @@ const projects: Projects = [
 
     visit: "https://tulips.technology",
     slug: "tendertulip",
-  },
-  {
-    image: dashboard,
-    title: "Clinic-Dashboard",
-    smallDescription: "A Dashboard build for a company with advanced features like database,authentication,etc",
-    description: [
-      {
-        content:
-          "A complex website made for a company which contains several styled components and also uses vitejs for routing and mui for styling. and also uses supabase for authentication.",
-      },
-      {
-        content:
-          "Supabase is used for double authentication and also for storing data in 3 tables in the backend.This project is a dashboard for a company which contains several styled components and also uses react kendopdf for printing mui designed recipts. and also uses vitejs for routing and mui for styling. and also uses supabase for authentication",
-      },
-
-    ],
-    techs: [
-      {
-        image: vite,
-        name: "Vite.js",
-      },
-      {
-        image: javascript,
-        name: "JavaScript",
-      },
-
-      {
-        image: tailwind,
-        name: "Tailwind CSS",
-      },
-      {
-        image: materialui,
-        name: "MUI",
-      },
-      {
-        image: supabase,
-        name: "Supabase",
-      },
-    ],
-
-    visit: "https://vidyacliniccentre.vercel.app/",
-    slug: "RehabClinicDashboard",
-  },
-  {
-    image: younotes,
-    title: "YouNotes",
-    smallDescription: "Github's First Vercel Deployed Opensource Youtube to Notes Converter",
-    description: [
-      {
-        content:
-          "ouNotes is an AI-powered tool that automatically generates concise, well-structured notes from YouTube videos and text transcripts. Transform hours of content into digestible summaries with just a click!",
-      },
-      {
-        content:
-          "It's powered by Supabase auth and Google Gemni API for for the note by AI and also uses Next.js for the frontend and tailwind for the styling.",
-      },
-
-    ],
-    techs: [
-      {
-        image: nextjs,
-        name: "Next.js",
-      },
-      {
-        image: javascript,
-        name: "JavaScript",
-      },
-
-      {
-        image: supabase,
-        name: "Supabase",
-      },
-
-      {
-        image: tailwind,
-        name: "Tailwind CSS",
-      },
-      {
-        image: react,
-        name: "React",
-      },
-      {
-        image: framer,
-        name: "Framer Motion",
-      },
-      {
-        image: shadcn,
-        name: "Shadcn",
-      },
-      {
-        image: rapidapi,
-        name: "RapidAPI",
-      },
-    ],
-    code: "https://github.com/RJohnPaul/YouNotes",
-    visit: "https://you-notes-rouge.vercel.app/",
-    slug: "younotes",
   },
   {
     image: qrgenpic,
