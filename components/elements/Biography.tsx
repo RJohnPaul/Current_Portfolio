@@ -35,7 +35,7 @@ const Biography = () => {
         . With over{" "}
         <span className="text-violet-500">4+ years of study</span> in web development and design, and 2 years in app development, I have gained significant experience in creating digital solutions. My current focus is on exploring{" "}
         <span className="text-violet-500">design systems</span>, crafting{" "}
-        <span className="text-violet-500">innovative interfaces</span>, and turning code into exceptional user experiences. I am presently a Technical Intern at{" "}
+        <span className="text-violet-500">innovative interfaces</span>, and turning code into exceptional user experiences. I worked a year with{" "}
         <a
           href="https://cherrynetwork.in/"
           target="_blank"
