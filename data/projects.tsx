@@ -86,7 +86,7 @@ const projects: Projects = [
     description: [
       {
         content:
-          "ouNotes is an AI-powered tool that automatically generates concise, well-structured notes from YouTube videos and text transcripts. Transform hours of content into digestible summaries with just a click!",
+          "YouNotes is an AI-powered tool that automatically generates concise, well-structured notes from YouTube videos and text transcripts. Transform hours of content into digestible summaries with just a click!",
       },
       {
         content:
