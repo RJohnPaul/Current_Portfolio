@@ -34,8 +34,6 @@ const ProjectsPage = () => {
             <span className="block mt-4">
               View more projects on my <a target="_blank" href="https://github.com/RJohnPaul" className=" hover:underline-offset-2 hover:text-purple-500 transition-all underline cursor-pointer">Github!</a>
             </span>
-
-
           </Typography>
         </section>
         <ul className="grid place-items-center gap-4 md:grid-cols-2">
