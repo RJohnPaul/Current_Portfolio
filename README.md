@@ -1,4 +1,4 @@
-# My Currently Used Portfolio  🌟
+# My Current Portfolio  🌟
 
 <div align="center">
   <br>
