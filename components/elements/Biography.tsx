@@ -22,8 +22,8 @@ const Biography = () => {
   return (
     <div className="space-y-3">
       <Typography className="leading-relaxed">
-        Hi, I&apos;m John Paul, a {getAge()}-year-old web developer born in{" "}
-        <span className="text-violet-500">India</span>. I am currently pursuing my Bachelor&apos;s degree in Computer Engineering at{" "}
+        Hi, I&apos;m John Paul, a {getAge()}-year-old dedicated full stack developer born in{" "}
+        <span className="text-violet-500">India</span>. I am currently pursuing my Bachelor&apos;s degree in Computer Engineering with Software Engineering at{" "}
         <a
           href="https://www.srmist.edu.in/"
           target="_blank"
@@ -32,25 +32,47 @@ const Biography = () => {
         >
           SRM Institute of Science and Technology
         </a>
-        . With over{" "}
-        <span className="text-violet-500">4+ years of study</span> in web development and design, and 2 years in app development, I have gained significant experience in creating digital solutions. My current focus is on exploring{" "}
-        <span className="text-violet-500">design systems</span>, crafting{" "}
-        <span className="text-violet-500">innovative interfaces</span>, and turning code into exceptional user experiences. I worked a year with{" "}
+        . With a strong academic foundation and hands-on experience, I have developed{" "}
+        <span className="text-violet-500">proficiency in web and app development</span> using technologies like Next.js, React, and Tailwind CSS. My current roles include working as a{" "}
         <a
-          href="https://cherrynetwork.in/"
+          href="https://www.tulips.technology/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300"
         >
-          Cherry+ Network
+          Fullstack Lead at Tendertulip
         </a>
-        , where I have been helping to build custom websites with various frameworks and custom styling for over a year. Additionally, I am interning at{" "}
-        <a href="https://www.liftoffclub.in/"
-          target="_blank"
-          rel="noopener noreferrer" className="cursor-pointer text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300">Liftoff</a> and{" "}
+        , where I build custom websites and CRMs for clients, and as a Technical Developer for the{" "}
         <a href="https://www.srmist.edu.in/alumni-affairs/"
           target="_blank"
-          rel="noopener noreferrer" className="cursor-pointer text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300">SRM Alumni Affairs</a>. I strive to stay constantly updated with the latest market trends, demonstrating a commitment to making a difference in every project I am involved in. With 90+ repositories on my GitHub account and 50+ projects ranging from Python to React to C++, I showcase my diverse skills and expertise on my portfolio.
+          rel="noopener noreferrer" className="cursor-pointer text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300">
+          Directorate of Alumni Affairs of SRM (DAA)
+        </a>
+        . I&apos;m also interning at{" "}
+        <a href="https://www.liftoffclub.in/"
+          target="_blank"
+          rel="noopener noreferrer" className="cursor-pointer text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300">
+          Liftoff
+        </a>
+        , where I contribute to various projects. My portfolio showcases 50+ projects, including AI tools like{" "}
+        <a
+          href="https://you-notes-rouge.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300"
+        >
+          YouNotes
+        </a>
+        , a note-taking app, and{" "}
+        <a
+          href="https://xtractai.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-violet-500 underline decoration-violet-500/50 underline-offset-4 duration-300 hover:decoration-violet-300 hover:text-violet-300"
+        >
+          XtractAI
+        </a>
+        , a summarizing tool. With 90+ repositories on GitHub, I continue to innovate and grow as a developer.
       </Typography>
     </div>
   );
