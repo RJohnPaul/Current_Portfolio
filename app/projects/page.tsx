@@ -5,7 +5,6 @@ import { Title } from "@/components/elements/Title";
 import { Typography } from "@/components/elements/Typography";
 import { ProjectItem } from "@/components/elements/ProjectItem";
 import { AnimateEnter } from "@/components/elements/AnimateEnter";
-// HI
 export const metadata: Metadata = {
   title: "Projects",
   description: "Few of my projects that I have developed.",

@@ -18,6 +18,7 @@ import companybootstrap from "@/assets/images/projects/companybootstrap.png";
 import srmcrypt from "@/assets/images/projects/srmcrypt.png";
 import dashboard from "@/assets/images/projects/dashboard.png";
 import younotes from "@/assets/images/projects/younotes.png";
+import weatherit from "@/assets/images/projects/weatherit.png";
 import hellosvelte from "@/assets/images/projects/hellosvelte.png";
 import todolist from "@/assets/images/projects/todolist.png";
 import tulip from "@/assets/images/projects/tulip.png";
@@ -79,6 +80,41 @@ type Projects = Array<{
 }>;
 
 const projects: Projects = [
+  {
+    image: weatherit,
+    title: "Weatherit",
+    smallDescription: "A Streamlit weather app powered by 40k+ records of rainfall data",
+    description: [
+      {
+        content:
+          "Streamlit is used for the frontend and also uses python for the backend. This project is a weather app which contains several styled components and also uses streamlit for the frontend and also uses python for the backend.",
+      },
+      {
+        content:
+          "Uses matplotlib , folium heatmaps and also uses tensorflow for the model. and also uses pandas for the data manipulation also uses sklearn metrics for the model evaluation and also uses numpy for the array manipulation.",
+      },
+
+    ],
+    techs: [
+      {
+        image: streamlit,
+        name: "Streamlit",
+      },
+      {
+        image: python,
+        name: "Python",
+      },
+
+      {
+        image: css,
+        name: "CSS",
+      },
+    ],
+
+    code: "https://github.com/RJohnPaul/Weather_Predict",
+    visit: "https://weather-predicter.streamlit.app/",
+    slug: "Weatherit",
+  },
   {
     image: younotes,
     title: "YouNotes",
